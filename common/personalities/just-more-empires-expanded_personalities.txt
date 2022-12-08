@@ -57,12 +57,10 @@ just-more-empires-expanded_determined_expansionists = {
 				has_ethic = "ethic_authoritarian"
 				has_ethic = "ethic_militarist"
 				has_ethic = "ethic_xenophile"
-			}
-			OR = {
 				has_ethic = "ethic_fanatic_authoritarian"
 				has_ethic = "ethic_fanatic_militarist"
 				has_ethic = "ethic_fanatic_xenophile"
-				NOT = {
+				NOR = {
 					has_ethic = "ethic_egalitarian"
 					has_ethic = "ethic_pacifist"
 					has_ethic = "ethic_xenophobe"
