@@ -1,4 +1,4 @@
-name="Just More Empires 3.4.x"
+name="Just More Empires 3.7.x"
 tags={
 	"Achievement"
 	"Galaxy Generation"
@@ -8,6 +8,5 @@ tags={
 	"Species"
 }
 picture="thumbnail.png"
-supported_version="3.4.*"
-path="%USERPROFILE%/Documents/Paradox Interactive/Stellaris/mod/just_more_empires"
+supported_version="3.7.*"
 remote_file_id="2049806134"
