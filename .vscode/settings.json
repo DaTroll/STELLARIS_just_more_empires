@@ -1,0 +1,72 @@
+{
+    "deploy.reloaded": {
+        "values": {
+            "outputDir": {
+                "type": "code",
+                "code": "require('os').homedir() + '/'"
+            }
+        },
+        
+        "packages": [
+            {
+                "name": "Just More Empires",
+                "description": "Just More Empires",
+
+                "button": {
+                    "text": "Deploy to Just More Empires",
+                    
+                    "targets": [ "Just more Empires" ]
+                },
+
+                "files": [
+                    "**",
+                ],
+                "exclude": [
+                    ".vscode/**",
+                    "*.md"
+                ],
+
+                "deployOnSaveButton": [ "Just More Empires" ]
+            },
+
+            {
+                "name": "Just More Empires Expanded",
+                "description": "Just More Empires Expanded",
+
+                "button": {
+                    "text": "Deploy to Just More Empires Expanded",
+                    
+                    "targets": [ "Just more Empires Expanded" ]
+                },
+
+                "files": [
+                    "**",
+                ],
+                "exclude": [
+                    ".vscode/**",
+                    "*.md"
+                ],
+
+                "deployOnSaveButton": [ "Just More Empires Expanded" ]
+            },
+        ],
+
+        "targets": [
+            {
+                "type": "local",
+                "name": "Just More Empires",
+                "description": "Local folder",
+
+                "dir": "${outputDir}/Documents/Paradox Interactive/Stellaris/mod/just_more_empires/"
+            },
+            
+            {
+                "type": "local",
+                "name": "Just More Empires Expanded",
+                "description": "Local folder",
+
+                "dir": "${outputDir}/Documents/Paradox Interactive/Stellaris/mod/just_more_empires_expanded/"
+            },
+        ]
+    }
+}
