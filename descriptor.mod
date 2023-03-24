@@ -1,4 +1,4 @@
-name="Just More Empires 3.4.x"
+name="Just More Empires 3.7.x (Expanded)"
 tags={
 	"Galaxy Generation"
 	"Empires"
@@ -6,5 +6,5 @@ tags={
 	"Species"
 }
 picture="thumbnail.png"
-supported_version="3.4.*"
-remote_file_id="2049806134"
+supported_version="3.7.*"
+remote_file_id="2087390165"
