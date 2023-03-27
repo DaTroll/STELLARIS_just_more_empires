@@ -4516,7 +4516,7 @@
 			key="Giranshu"
 		}
 		species_bio="What can be said for the species that created the Nexine scourge except... I wish they hadn't done that."
-		name_list="HIVE1"
+		name_list="HIVE2"
 		gender=not_set
 		trait="trait_cybernetic"
 		trait="trait_natural_engineers"
