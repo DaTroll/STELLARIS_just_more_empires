@@ -2443,6 +2443,91 @@
 	}
 	origin="origin_doomsday"
 }
+"Gallifian Scourge"={
+	key="Gallifian Scourge"
+	ship_prefix={
+		key="ISS"
+	}
+	species={
+		class="LITHOID"
+		portrait="lith2"
+		species_name={
+			key="Peridotit"
+		}
+		species_plural={
+			key="Peridotite"
+		}
+		species_adjective={
+			key="Peridotit"
+		}
+		species_bio="Gallifrey was once a Planet with exceptional high gravity and ressource riches. An unknown empire tried to get access to its riches terraforming the unhabitable planet. This attempt failed terribly creating and created the everhungry lithoid lifeform devouring planet after planet ever since."
+		name_list="LITHOID4"
+		gender=not_set
+		trait="trait_lithoid"
+		trait="trait_hive_mind"
+		trait="trait_industrious"
+		trait="trait_unruly"
+		trait="trait_intelligent"
+	}
+	name={
+		key="Gallifian Scourge"
+	}
+	adjective={
+		key="Gallifian"
+	}
+	authority="auth_hive_mind"
+	government="gov_devouring_swarm"
+	advisor_voice_type="l_lithoid_vir"
+	planet_name={
+		key="Gallifrey"
+	}
+	planet_class="pc_desert"
+	system_name={
+		key="Lherzolith"
+	}
+	initializer="custom_starting_init_06"
+	graphical_culture="lithoid_01"
+	city_graphical_culture="lithoid_01"
+	empire_flag={
+		icon={
+			category="just-more-flags"
+			file="flag_materialist1.dds"
+		}
+		background={
+			category="backgrounds"
+			file="new_dawn.dds"
+		}
+		colors={
+			"hsv_8-84-50"
+			"beige"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name={
+			full_names={
+				key="Kation"
+			}
+		}
+		portrait="lith2"
+		texture=3
+		attachment=0
+		clothes=0
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="apocalyptic7_room"
+	spawn_enabled=yes
+	ethic="ethic_gestalt_consciousness"
+	civics={
+		"civic_hive_natural_neural_network"
+		"civic_hive_devouring_swarm"
+	}
+	origin="origin_lithoid"
+}
 "Galtanian Unistatic Regime"={
 	key="Galtanian Unistatic Regime"
 	ship_prefix={
