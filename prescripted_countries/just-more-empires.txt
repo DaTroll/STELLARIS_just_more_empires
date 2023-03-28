@@ -59,13 +59,13 @@
 	ruler={
 		gender=female
 		name={
-			first_name={
+			full_names={
 				key="Kaabbea Ba Tuy"
 			}
 		}
 		portrait="mol2"
 		texture=0
-		hair=0
+		attachment=0
 		clothes=0
 		leader_class="ruler"
 	}
@@ -142,13 +142,13 @@
 	ruler={
 		gender=female
 		name={
-			first_name={
+			full_names={
 				key="Relentless"
 			}
 		}
 		portrait="fun16"
 		texture=1
-		hair=0
+		attachment=0
 		clothes=0
 		leader_class="ruler"
 	}
@@ -224,13 +224,13 @@
 	ruler={
 		gender=male
 		name={
-			first_name={
+			full_names={
 				key="Axemekat"
 			}
 		}
 		portrait="rep9"
 		texture=1
-		hair=0
+		attachment=0
 		clothes=1
 		leader_class="ruler"
 	}
@@ -266,6 +266,7 @@
 		species_bio="An alliance struck between several great Space Age powers on Tharfalion, the Entente ensures the safety and prosperity of the Ilimeen, a species of subterranean arthropoids. Iliminic civilization was largely hidden beneath the dune seas of their homeworld for millennia. Spread across millions of miles of natural and artificial caverns, their culture developed to be remarkably insular. After an unfortunate encounter with a cache of abandoned marauder weapons early in their exploration of space, the Ilimeen grew increasingly wary of the galaxy beyond their home. Retreating into the 'further grottos of their nature', they turned to autarky and isolation."
 		name_list="ART1"
 		gender=not_set
+		trait="trait_cave_dweller"
 		trait="trait_conformists"
 		trait="trait_resilient"
 		trait="trait_sedentary"
@@ -309,13 +310,13 @@
 	ruler={
 		gender=male
 		name={
-			first_name={
+			full_names={
 				key="Trokashem"
 			}
 		}
 		portrait="art5"
 		texture=1
-		hair=0
+		attachment=0
 		clothes=0
 		ruler_title={
 			key="Shadowless"
@@ -336,7 +337,7 @@
 		"civic_inwards_perfection"
 		"civic_parliamentary_system"
 	}
-	origin="origin_shoulders_of_giants"
+	origin="origin_subterranean"
 }
 "Bosang Grand Accord"={
 	key="Bosang Grand Accord"
@@ -377,8 +378,8 @@
 		key="Bosang"
 	}
 	initializer=""
-	graphical_culture="plantoid_01"
-	city_graphical_culture="plantoid_01"
+	graphical_culture="toxoid_01"
+	city_graphical_culture="toxoid_01"
 	empire_flag={
 		icon={
 			category="just-more-flags"
@@ -398,13 +399,13 @@
 	ruler={
 		gender=female
 		name={
-			first_name={
+			full_names={
 				key="Gold Pod"
 			}
 		}
 		portrait="pla10"
 		texture=0
-		hair=0
+		attachment=0
 		clothes=2
 		leader_class="ruler"
 	}
@@ -481,13 +482,13 @@
 	ruler={
 		gender=female
 		name={
-			first_name={
+			full_names={
 				key="T'Maku"
 			}
 		}
 		portrait="avi6_f"
 		texture=1
-		hair=0
+		attachment=0
 		clothes=0
 		leader_class="ruler"
 	}
@@ -563,13 +564,13 @@
 	ruler={
 		gender=female
 		name={
-			first_name={
+			full_names={
 				key="Tag Jach Dvoruss"
 			}
 		}
 		portrait="mam6"
 		texture=1
-		hair=0
+		attachment=0
 		clothes=2
 		leader_class="ruler"
 	}
@@ -645,13 +646,13 @@
 	ruler={
 		gender=male
 		name={
-			first_name={
+			full_names={
 				key="Merould cur'Padarn"
 			}
 		}
 		portrait="mam17"
 		texture=3
-		hair=0
+		attachment=0
 		clothes=2
 		ruler_title={
 			key="Premier"
@@ -758,13 +759,13 @@
 	ruler={
 		gender=male
 		name={
-			first_name={
+			full_names={
 				key="Ectodrix Tesserax"
 			}
 		}
 		portrait="art20"
 		texture=0
-		hair=0
+		attachment=0
 		clothes=0
 		ruler_title={
 			key="High Adjudicator"
@@ -849,13 +850,13 @@
 	ruler={
 		gender=male
 		name={
-			first_name={
+			full_names={
 				key="Okyrormux"
 			}
 		}
 		portrait="art14"
 		texture=1
-		hair=0
+		attachment=0
 		clothes=0
 		ruler_title={
 			key="Chairbeing"
@@ -939,13 +940,13 @@
 	ruler={
 		gender=male
 		name={
-			first_name={
+			full_names={
 				key="Juk of Red Banners"
 			}
 		}
 		portrait="humanoid_02_male_01"
 		texture=0
-		hair=4
+		attachment=4
 		clothes=4
 		ruler_title={
 			key="Warlord"
@@ -1029,13 +1030,13 @@
 	ruler={
 		gender=female
 		name={
-			first_name={
+			full_names={
 				key="Matrix"
 			}
 		}
 		portrait="sd_art_robot"
 		texture=3
-		hair=0
+		attachment=0
 		clothes=0
 		leader_class="ruler"
 	}
@@ -1109,13 +1110,13 @@
 	ruler={
 		gender=female
 		name={
-			first_name={
+			full_names={
 				key="Albana Gorev"
 			}
 		}
 		portrait="human_female_04"
 		texture=0
-		hair=3
+		attachment=3
 		clothes=4
 		ruler_title={
 			key="Grand Marshal"
@@ -1199,13 +1200,13 @@
 	ruler={
 		gender=female
 		name={
-			first_name={
+			full_names={
 				key="Renata Vasquez"
 			}
 		}
 		portrait="human_female_03"
 		texture=0
-		hair=7
+		attachment=7
 		clothes=6
 		ruler_title={
 			key="Commandant"
@@ -1288,13 +1289,13 @@
 	ruler={
 		gender=female
 		name={
-			first_name={
+			full_names={
 				key="Jet Oron the Polymath"
 			}
 		}
 		portrait="rep2"
 		texture=2
-		hair=1
+		attachment=1
 		clothes=0
 		leader_class="ruler"
 	}
@@ -1370,13 +1371,13 @@
 	ruler={
 		gender=male
 		name={
-			first_name={
+			full_names={
 				key="Tiberius Salazar"
 			}
 		}
 		portrait="human_male_03"
 		texture=0
-		hair=11
+		attachment=11
 		clothes=5
 		ruler_title={
 			key="Imperator"
@@ -1464,13 +1465,13 @@
 	ruler={
 		gender=female
 		name={
-			first_name={
+			full_names={
 				key="Tepekuitl Ispeyek"
 			}
 		}
 		portrait="avi14_f"
 		texture=2
-		hair=0
+		attachment=0
 		clothes=1
 		ruler_title={
 			key="Chief Officer"
@@ -1555,13 +1556,13 @@
 	ruler={
 		gender=male
 		name={
-			first_name={
+			full_names={
 				key="Teobaldo Sarto Borges"
 			}
 		}
 		portrait="human_male_01"
 		texture=0
-		hair=27
+		attachment=27
 		clothes=1
 		leader_class="ruler"
 	}
@@ -1638,13 +1639,13 @@
 	ruler={
 		gender=male
 		name={
-			first_name={
+			full_names={
 				key="Pendirm den Rothorag"
 			}
 		}
 		portrait="mam12"
 		texture=2
-		hair=0
+		attachment=0
 		clothes=3
 		leader_class="ruler"
 	}
@@ -1723,13 +1724,13 @@
 	ruler={
 		gender=male
 		name={
-			first_name={
+			full_names={
 				key="Jinggundol Orlgundgrib"
 			}
 		}
 		portrait="rep1"
 		texture=0
-		hair=0
+		attachment=0
 		clothes=4
 		ruler_title={
 			key="High Jurist"
@@ -1811,13 +1812,13 @@
 	ruler={
 		gender=male
 		name={
-			first_name={
+			full_names={
 				key="Abarphor Kiyajtades"
 			}
 		}
 		portrait="mam14"
 		texture=0
-		hair=0
+		attachment=0
 		clothes=0
 		leader_class="ruler"
 	}
@@ -1894,13 +1895,13 @@
 	ruler={
 		gender=female
 		name={
-			first_name={
+			full_names={
 				key="Gek M'Bok"
 			}
 		}
 		portrait="art12"
 		texture=6
-		hair=0
+		attachment=0
 		clothes=0
 		leader_class="ruler"
 	}
@@ -1978,13 +1979,13 @@
 	ruler={
 		gender=female
 		name={
-			first_name={
+			full_names={
 				key="Bears History"
 			}
 		}
 		portrait="art11"
 		texture=1
-		hair=0
+		attachment=0
 		clothes=0
 		leader_class="ruler"
 	}
@@ -2081,13 +2082,13 @@
 	ruler={
 		gender=female
 		name={
-			first_name={
+			full_names={
 				key="Xincava Qalvrfin"
 			}
 		}
 		portrait="fun7"
 		texture=4
-		hair=0
+		attachment=0
 		clothes=0
 		leader_class="ruler"
 	}
@@ -2164,13 +2165,13 @@
 	ruler={
 		gender=male
 		name={
-			first_name={
+			full_names={
 				key="Aumeren"
 			}
 		}
 		portrait="humanoid_hp_09"
 		texture=1
-		hair=0
+		attachment=0
 		clothes=1
 		leader_class="ruler"
 	}
@@ -2245,13 +2246,13 @@
 	ruler={
 		gender=male
 		name={
-			first_name={
+			full_names={
 				key="Dhargran Engor"
 			}
 		}
 		portrait="rep5"
 		texture=0
-		hair=0
+		attachment=0
 		clothes=1
 		ruler_title={
 			key="Emperor"
@@ -2338,13 +2339,13 @@
 	ruler={
 		gender=male
 		name={
-			first_name={
+			full_names={
 				key="Curyd Polor-Cyp"
 			}
 		}
 		portrait="mam5"
 		texture=4
-		hair=0
+		attachment=0
 		clothes=2
 		leader_class="ruler"
 	}
@@ -2422,13 +2423,13 @@
 	ruler={
 		gender=female
 		name={
-			first_name={
+			full_names={
 				key="Opticore"
 			}
 		}
 		portrait="sd_pla_robot"
 		texture=0
-		hair=0
+		attachment=0
 		clothes=0
 		leader_class="ruler"
 	}
@@ -2587,13 +2588,13 @@
 	ruler={
 		gender=female
 		name={
-			first_name={
+			full_names={
 				key="Dr. Gadar Gimcham"
 			}
 		}
 		portrait="mam2"
 		texture=4
-		hair=0
+		attachment=0
 		clothes=1
 		leader_class="ruler"
 	}
@@ -2669,13 +2670,13 @@
 	ruler={
 		gender=male
 		name={
-			first_name={
+			full_names={
 				key="Lonchimbeldax Arkande"
 			}
 		}
 		portrait="mam13"
 		texture=2
-		hair=0
+		attachment=0
 		clothes=1
 		ruler_title={
 			key="Emperor"
@@ -2759,13 +2760,13 @@
 	ruler={
 		gender=female
 		name={
-			first_name={
+			full_names={
 				key="Frym Halkath Kili"
 			}
 		}
 		portrait="avi3"
 		texture=0
-		hair=0
+		attachment=0
 		clothes=0
 		leader_class="ruler"
 	}
@@ -2844,13 +2845,13 @@
 	ruler={
 		gender=male
 		name={
-			first_name={
+			full_names={
 				key="J.L.R. Kol-Prakyo"
 			}
 		}
 		portrait="rep4"
 		texture=4
-		hair=0
+		attachment=0
 		clothes=1
 		ruler_title={
 			key="High Commissioner"
@@ -2934,13 +2935,13 @@
 	ruler={
 		gender=male
 		name={
-			first_name={
+			full_names={
 				key="Statius Fulcinius"
 			}
 		}
 		portrait="human_male_04"
 		texture=0
-		hair=33
+		attachment=33
 		clothes=6
 		ruler_title={
 			key="Pontifex Maximus"
@@ -3030,13 +3031,13 @@
 	ruler={
 		gender=female
 		name={
-			first_name={
+			full_names={
 				key="Masteridix Castrix"
 			}
 		}
 		portrait="art7"
 		texture=1
-		hair=0
+		attachment=0
 		clothes=4
 		leader_class="ruler"
 	}
@@ -3115,13 +3116,13 @@
 	ruler={
 		gender=female
 		name={
-			first_name={
+			full_names={
 				key="Nexus"
 			}
 		}
 		portrait="sd_rep_robot"
 		texture=2
-		hair=0
+		attachment=0
 		clothes=0
 		leader_class="ruler"
 	}
@@ -3197,13 +3198,13 @@
 	ruler={
 		gender=male
 		name={
-			first_name={
+			full_names={
 				key="Laal Shirgar"
 			}
 		}
 		portrait="humanoid_hp_08"
 		texture=0
-		hair=0
+		attachment=0
 		clothes=3
 		leader_class="ruler"
 	}
@@ -3279,13 +3280,13 @@
 	ruler={
 		gender=male
 		name={
-			first_name={
+			full_names={
 				key="Yggash the Destroyer"
 			}
 		}
 		portrait="mol5"
 		texture=1
-		hair=0
+		attachment=0
 		clothes=0
 		leader_class="ruler"
 	}
@@ -3360,13 +3361,13 @@
 	ruler={
 		gender=male
 		name={
-			first_name={
+			full_names={
 				key="Kers Styuso"
 			}
 		}
 		portrait="mol3"
 		texture=2
-		hair=0
+		attachment=0
 		clothes=2
 		leader_class="ruler"
 	}
@@ -3442,13 +3443,13 @@
 	ruler={
 		gender=female
 		name={
-			first_name={
+			full_names={
 				key="Dak Zad-Tr'Gish"
 			}
 		}
 		portrait="art17"
 		texture=3
-		hair=0
+		attachment=0
 		clothes=0
 		leader_class="ruler"
 	}
@@ -3524,13 +3525,13 @@
 	ruler={
 		gender=male
 		name={
-			first_name={
+			full_names={
 				key="Olowan Brightbeak"
 			}
 		}
 		portrait="avi1"
 		texture=2
-		hair=0
+		attachment=0
 		clothes=3
 		ruler_title={
 			key="Commissar-General"
@@ -3550,7 +3551,7 @@
 		"civic_distinguished_admiralty"
 		"civic_nationalistic_zeal"
 	}
-	origin="origin_default"
+	origin="origin_payback"
 }
 "Kolari Martial Coalition"={
 	key="Kolari Martial Coalition"
@@ -3612,13 +3613,13 @@
 	ruler={
 		gender=female
 		name={
-			first_name={
+			full_names={
 				key="Dhanhaani Giasor"
 			}
 		}
 		portrait="humanoid_03_female_01"
 		texture=3
-		hair=0
+		attachment=0
 		clothes=4
 		leader_class="ruler"
 	}
@@ -3697,13 +3698,13 @@
 	ruler={
 		gender=male
 		name={
-			first_name={
+			full_names={
 				key="Mosemotsane Kwayi"
 			}
 		}
 		portrait="human_male_05"
 		texture=0
-		hair=4
+		attachment=4
 		clothes=0
 		leader_class="ruler"
 	}
@@ -3781,13 +3782,13 @@
 	ruler={
 		gender=male
 		name={
-			first_name={
+			full_names={
 				key="Adamant-Mind Uldek"
 			}
 		}
 		portrait="humanoid_hp_07"
 		texture=0
-		hair=0
+		attachment=0
 		clothes=4
 		leader_class="ruler"
 	}
@@ -3799,7 +3800,7 @@
 	ethic="ethic_spiritualist"
 	civics={
 		"civic_fanatic_purifiers"
-		"civic_shadow_council"
+		"civic_reanimated_armies"
 	}
 	origin="origin_default"
 }
@@ -3866,13 +3867,13 @@
 	ruler={
 		gender=female
 		name={
-			first_name={
+			full_names={
 				key="Kuomi Stormy-Spirit"
 			}
 		}
 		portrait="mam7"
 		texture=0
-		hair=0
+		attachment=0
 		clothes=1
 		leader_class="ruler"
 	}
@@ -3969,13 +3970,13 @@
 	ruler={
 		gender=female
 		name={
-			first_name={
+			full_names={
 				key="Kish Sk'Rak"
 			}
 		}
 		portrait="art3"
 		texture=1
-		hair=0
+		attachment=0
 		clothes=0
 		leader_class="ruler"
 	}
@@ -4052,13 +4053,13 @@
 	ruler={
 		gender=female
 		name={
-			first_name={
+			full_names={
 				key="Adv. Hodok Tunxan"
 			}
 		}
 		portrait="fun1"
 		texture=2
-		hair=0
+		attachment=0
 		clothes=0
 		ruler_title={
 			key="Chairbeing"
@@ -4156,13 +4157,13 @@
 	ruler={
 		gender=female
 		name={
-			first_name={
+			full_names={
 				key="Affinitor"
 			}
 		}
 		portrait="sd_mam_robot"
 		texture=2
-		hair=0
+		attachment=0
 		clothes=0
 		leader_class="ruler"
 	}
@@ -4238,13 +4239,13 @@
 	ruler={
 		gender=male
 		name={
-			first_name={
+			full_names={
 				key="Dooklor"
 			}
 		}
 		portrait="mol6"
 		texture=1
-		hair=0
+		attachment=0
 		clothes=0
 		leader_class="ruler"
 	}
@@ -4344,13 +4345,13 @@
 	ruler={
 		gender=female
 		name={
-			first_name={
+			full_names={
 				key="Japra Inik"
 			}
 		}
 		portrait="human_female_01"
 		texture=0
-		hair=2
+		attachment=2
 		clothes=2
 		ruler_title={
 			key="Director-General"
@@ -4432,13 +4433,13 @@
 	ruler={
 		gender=female
 		name={
-			first_name={
+			full_names={
 				key="Operator"
 			}
 		}
 		portrait="sd_fun_robot"
 		texture=1
-		hair=0
+		attachment=0
 		clothes=0
 		leader_class="ruler"
 	}
@@ -4532,13 +4533,13 @@
 	ruler={
 		gender=female
 		name={
-			first_name={
+			full_names={
 				key="Core"
 			}
 		}
 		portrait="sd_hum_robot"
 		texture=3
-		hair=0
+		attachment=0
 		clothes=0
 		leader_class="ruler"
 	}
@@ -4618,13 +4619,13 @@
 	ruler={
 		gender=female
 		name={
-			first_name={
+			full_names={
 				key="Juhi Tamhane"
 			}
 		}
 		portrait="human_female_01"
 		texture=0
-		hair=0
+		attachment=0
 		clothes=5
 		ruler_title={
 			key="First Chosen"
@@ -4728,13 +4729,13 @@
 	ruler={
 		gender=male
 		name={
-			first_name={
+			full_names={
 				key="Lord Amnathiya"
 			}
 		}
 		portrait="rep17"
 		texture=3
-		hair=0
+		attachment=0
 		clothes=0
 		leader_class="ruler"
 	}
@@ -4811,13 +4812,13 @@
 	ruler={
 		gender=female
 		name={
-			first_name={
+			full_names={
 				key="Zavabb Qamvs"
 			}
 		}
 		portrait="fun10"
 		texture=6
-		hair=0
+		attachment=0
 		clothes=2
 		leader_class="ruler"
 	}
@@ -4896,13 +4897,13 @@
 	ruler={
 		gender=male
 		name={
-			first_name={
+			full_names={
 				key="Guo Xinfang"
 			}
 		}
 		portrait="human_male_02"
 		texture=0
-		hair=1
+		attachment=1
 		clothes=2
 		ruler_title={
 			key="Chairman"
@@ -4986,13 +4987,13 @@
 	ruler={
 		gender=female
 		name={
-			first_name={
+			full_names={
 				key="Matrix"
 			}
 		}
 		portrait="sd_avi_robot"
 		texture=3
-		hair=0
+		attachment=0
 		clothes=0
 		leader_class="ruler"
 	}
@@ -5069,13 +5070,13 @@
 	ruler={
 		gender=male
 		name={
-			first_name={
+			full_names={
 				key="Aulagron Rekk"
 			}
 		}
 		portrait="rep3_m"
 		texture=0
-		hair=0
+		attachment=0
 		clothes=3
 		ruler_title={
 			key="Imperator"
@@ -5165,13 +5166,13 @@
 	ruler={
 		gender=female
 		name={
-			first_name={
+			full_names={
 				key="Oeshez Ninimis"
 			}
 		}
 		portrait="rep6"
 		texture=1
-		hair=0
+		attachment=0
 		clothes=0
 		leader_class="ruler"
 	}
@@ -5249,13 +5250,13 @@
 	ruler={
 		gender=female
 		name={
-			first_name={
+			full_names={
 				key="Valentina Tsiolkovskaya"
 			}
 		}
 		portrait="human_female_04"
 		texture=0
-		hair=4
+		attachment=4
 		clothes=6
 		leader_class="ruler"
 	}
@@ -5330,13 +5331,13 @@
 	ruler={
 		gender=male
 		name={
-			first_name={
+			full_names={
 				key="Gulsras Aspect Divinum"
 			}
 		}
 		portrait="rep11"
 		texture=2
-		hair=0
+		attachment=0
 		clothes=0
 		leader_class="ruler"
 	}
@@ -5412,13 +5413,13 @@
 	ruler={
 		gender=female
 		name={
-			first_name={
+			full_names={
 				key="Mazalan"
 			}
 		}
 		portrait="avi11"
 		texture=1
-		hair=0
+		attachment=0
 		clothes=1
 		ruler_title={
 			key="Prime Motivator"
@@ -5460,6 +5461,9 @@
 		species_bio="The Black Death wiped out half of Earth's population in the 14th Century, including 99% of Europeans. Various Medieval Islamic powers expanded to fill the vacuum, first colonizing Europe and then discovering the Americas. Invigorated by a new era of frontiersmanship, these societies birthed a Renaissance spanning from Qurtuba to Makka to Jayakarta. During Earth's Industrial and Machine Ages, the Dar al-Islam came into frequent conflict with the Indian Travancore League and Chinese Empire. The struggle between these three blocs culminated in the Long War, spanning decades and killing hundreds of millions. Such horrific bloodshed gave rise to the political philosophy of Moral Progressivism. Dominated by the victorious powers of Firanja, Jinshan, and the Japanese Republic, the Human homeworld thrived under a syncretic vision of Islam, Buddhism, democracy, and environmentalism. As Humanity expanded into space, an enlightened and unified global government emerged to ensure lasting peace and prosperity: the Sacred Commonwealth of Earth."
 		name_list="HUMAN1"
 		gender=not_set
+		trait="trait_adaptive"
+		trait="trait_traditional"
+		trait="trait_wasteful"
 	}
 	name={
 		key="Sacred Commonwealth of Earth"
@@ -5503,13 +5507,13 @@
 	ruler={
 		gender=female
 		name={
-			first_name={
+			full_names={
 				key="Mahibah Mahdi"
 			}
 		}
 		portrait="human_female_03"
 		texture=0
-		hair=8
+		attachment=8
 		clothes=5
 		ruler_title={
 			key="President"
@@ -5528,7 +5532,7 @@
 	ethic="ethic_spiritualist"
 	civics={
 		"civic_beacon_of_liberty"
-		"civic_environmentalist"
+		"civic_memorialist"
 	}
 	origin="origin_default"
 }
@@ -5594,13 +5598,13 @@
 	ruler={
 		gender=female
 		name={
-			first_name={
+			full_names={
 				key="Ts'aimnu of Kovar"
 			}
 		}
 		portrait="humanoid_05_female_01"
 		texture=0
-		hair=2
+		attachment=2
 		clothes=2
 		leader_class="ruler"
 	}
@@ -5676,8 +5680,8 @@
 		key="Dhanbet"
 	}
 	initializer=""
-	graphical_culture="molluscoid_01"
-	city_graphical_culture="molluscoid_01"
+	graphical_culture="aquatic_01"
+	city_graphical_culture="aquatic_01"
 	empire_flag={
 		icon={
 			category="just-more-flags"
@@ -5697,13 +5701,13 @@
 	ruler={
 		gender=male
 		name={
-			first_name={
+			full_names={
 				key="Llyedith"
 			}
 		}
 		portrait="mol7"
 		texture=0
-		hair=0
+		attachment=0
 		clothes=0
 		leader_class="ruler"
 	}
@@ -5780,13 +5784,13 @@
 	ruler={
 		gender=female
 		name={
-			first_name={
+			full_names={
 				key="Awn Cliash"
 			}
 		}
 		portrait="mol13"
 		texture=0
-		hair=0
+		attachment=0
 		clothes=0
 		leader_class="ruler"
 	}
@@ -5864,13 +5868,13 @@
 	ruler={
 		gender=male
 		name={
-			first_name={
+			full_names={
 				key="Tlaxtli"
 			}
 		}
 		portrait="avi13"
 		texture=4
-		hair=0
+		attachment=0
 		clothes=0
 		leader_class="ruler"
 	}
@@ -5892,8 +5896,8 @@
 		key="SCS"
 	}
 	species={
-		class="HUM"
-		portrait="humanoid_04"
+		class="AQUATIC"
+		portrait="aqu6"
 		species_name={
 			key="Cydret"
 		}
@@ -5904,15 +5908,17 @@
 			key="Cydrese"
 		}
 		species_bio="A graceful demiamphibian species at home in warm littoral waters, the Cydreen of the planet Vacoo evolved a unique capability for telepathic empathy. This has allowed them to control some of their greatest predators, among them the physically imposing and more terrestrial Alari. Their talent may yet serve them well as they confront a galaxy full of no less hostile aliens."
-		name_list="HUM4"
+		name_list="AQUATIC3"
 		gender=not_set
 		trait="trait_charismatic"
 		trait="trait_natural_sociologists"
 		trait="trait_weak"
+		trait="trait_aquatic"
+		trait="trait_nonadaptive"
 	}
 	secondary_species={
-		class="HUM"
-		portrait="humanoid_hp_06"
+		class="AQUATIC"
+		portrait="aqu11"
 		species_name={
 			key="Alari"
 		}
@@ -5923,7 +5929,7 @@
 			key="Alarian"
 		}
 		species_bio="Enraptured by their empathic evolutionary cousins, the Cydreen, the species known as the Alari seem quite content to do most of the heavy lifting on Sirana."
-		name_list="HUM4"
+		name_list="AQUATIC4"
 		gender=not_set
 		trait="trait_syncretic_proles"
 		trait="trait_strong"
@@ -5938,6 +5944,7 @@
 	}
 	authority="auth_democratic"
 	government="gov_theocratic_republic"
+	advisor_voice_type="l_aqu_vir"
 	planet_name={
 		key="Vacoo"
 	}
@@ -5946,8 +5953,8 @@
 		key="Sirana"
 	}
 	initializer=""
-	graphical_culture="avian_01"
-	city_graphical_culture="humanoid_01"
+	graphical_culture="aquatic_01"
+	city_graphical_culture="aquatic_01"
 	empire_flag={
 		icon={
 			category="just-more-flags"
@@ -5967,13 +5974,13 @@
 	ruler={
 		gender=female
 		name={
-			first_name={
+			full_names={
 				key="Aljoba Amanot"
 			}
 		}
-		portrait="humanoid_04_female_01"
+		portrait="aqu6"
 		texture=3
-		hair=0
+		attachment=0
 		clothes=1
 		leader_class="ruler"
 	}
@@ -6051,13 +6058,13 @@
 	ruler={
 		gender=male
 		name={
-			first_name={
+			full_names={
 				key="Clator Teotinentus"
 			}
 		}
 		portrait="humanoid_hp_01"
 		texture=0
-		hair=0
+		attachment=0
 		clothes=0
 		leader_class="ruler"
 	}
@@ -6136,13 +6143,13 @@
 	ruler={
 		gender=male
 		name={
-			first_name={
+			full_names={
 				key="Shaur the Great"
 			}
 		}
 		portrait="rep15"
 		texture=3
-		hair=0
+		attachment=0
 		clothes=1
 		leader_class="ruler"
 	}
@@ -6219,13 +6226,13 @@
 	ruler={
 		gender=male
 		name={
-			first_name={
+			full_names={
 				key="Consciousness"
 			}
 		}
 		portrait="human_male_01"
 		texture=0
-		hair=20
+		attachment=20
 		clothes=5
 		ruler_title={
 			key="Mindflower"
@@ -6263,6 +6270,7 @@
 		species_bio="The Zeizox, a native species of Gog, were genetically modified by an unknown precursor civilization several millennia ago in an abortive attempt to breed a race of slave soldiers. In the age since, brutal Zeizoki kleptocracies have vied for dominance of their homeworld in a never ending series of increasingly destructive wars. They would have likely wiped themselves out within a few more centuries were it not for a large nomad starship crashing on Gog mostly intact. The tech salvaged from this ship transformed Zeizoki fortunes, opening up space and the hyperlane network, but left their culture unchanged. Their quasi-tribal groups, little better than gangs on a planetary scale, now look to the stars as a source of adventure and plunder."
 		name_list="MAM4"
 		gender=not_set
+		trait="trait_clone_soldier_infertile"
 		trait="trait_very_strong"
 		trait="trait_quarrelsome"
 	}
@@ -6303,13 +6311,13 @@
 	ruler={
 		gender=male
 		name={
-			first_name={
+			full_names={
 				key="Sagu, son of Imat"
 			}
 		}
 		portrait="humanoid_hp_12"
 		texture=3
-		hair=0
+		attachment=0
 		clothes=4
 		leader_class="ruler"
 	}
@@ -6323,7 +6331,7 @@
 		"civic_barbaric_despoilers"
 		"civic_warrior_culture"
 	}
-	origin="origin_shoulders_of_giants"
+	origin="origin_clone_army"
 }
 "Terran Colonial Empire"={
 	key="Terran Colonial Empire"
@@ -6369,7 +6377,7 @@
 		key="Sol"
 	}
 	initializer="sol_system_initializer"
-	graphical_culture="mammalian_01"
+	graphical_culture="nemesis_01"
 	city_graphical_culture="mammalian_01"
 	empire_flag={
 		icon={
@@ -6390,13 +6398,13 @@
 	ruler={
 		gender=male
 		name={
-			first_name={
+			full_names={
 				key="Richard Romanov-Westminster"
 			}
 		}
 		portrait="human_male_01"
 		texture=0
-		hair=27
+		attachment=27
 		clothes=4
 		ruler_title={
 			key="King-Emperor"
@@ -6487,13 +6495,13 @@
 	ruler={
 		gender=female
 		name={
-			first_name={
+			full_names={
 				key="Tala Muralidharan"
 			}
 		}
 		portrait="human_female_03"
 		texture=0
-		hair=10
+		attachment=10
 		clothes=0
 		leader_class="ruler"
 	}
@@ -6589,13 +6597,13 @@
 	ruler={
 		gender=female
 		name={
-			first_name={
+			full_names={
 				key="Synchronizer"
 			}
 		}
 		portrait="sd_mol_robot"
 		texture=0
-		hair=0
+		attachment=0
 		clothes=0
 		leader_class="ruler"
 	}
@@ -6671,13 +6679,13 @@
 	ruler={
 		gender=female
 		name={
-			first_name={
+			full_names={
 				key="Xanova ka Pretek"
 			}
 		}
 		portrait="pla3"
 		texture=0
-		hair=0
+		attachment=0
 		clothes=0
 		leader_class="ruler"
 	}
@@ -6755,13 +6763,13 @@
 	ruler={
 		gender=male
 		name={
-			first_name={
+			full_names={
 				key="Tramartar Jen-Meokar"
 			}
 		}
 		portrait="mol1"
 		texture=0
-		hair=0
+		attachment=0
 		clothes=1
 		ruler_title={
 			key="Administrator"
@@ -6846,8 +6854,8 @@
 		key="Sovon"
 	}
 	initializer=""
-	graphical_culture="avian_01"
-	city_graphical_culture="molluscoid_01"
+	graphical_culture="aquatic_01"
+	city_graphical_culture="aquatic_01"
 	empire_flag={
 		icon={
 			category="just-more-flags"
@@ -6867,13 +6875,13 @@
 	ruler={
 		gender=male
 		name={
-			first_name={
+			full_names={
 				key="J'atl the Gruesome"
 			}
 		}
 		portrait="mol15"
 		texture=3
-		hair=0
+		attachment=0
 		clothes=0
 		ruler_title={
 			key="Thaumatergic Primarch"
@@ -6975,13 +6983,13 @@
 	ruler={
 		gender=female
 		name={
-			first_name={
+			full_names={
 				key="Coordinator"
 			}
 		}
 		portrait="default_robot"
 		texture=0
-		hair=0
+		attachment=0
 		clothes=0
 		ruler_title={
 			key="Version Control"
@@ -7005,8 +7013,8 @@
 		key=""
 	}
 	species={
-		class="ART"
-		portrait="art10"
+		class="TOX"
+		portrait="tox15"
 		species_name={
 			key="Undjin"
 		}
@@ -7017,9 +7025,8 @@
 			key="Undjinic"
 		}
 		species_bio="In a different timeline the Undjoon might have been one of the great hopes of the galaxy, but in their early space age, a freak gamma ray burst cut a deadly path through their star system. Half of all Undjoon were killed, their homeworld was devastated, and those who survived descended into chaos. What emerged from this tragedy was a mockery of a once noble civilization. An uneasy balance of power struck between equally vicious armies of thugs and thieves came to define life on the blasted hellscapes of Aki-Vas. Technological advance resumed, driven by internal competition for military advantage. When one cartel cracked the code of hyperspace travel, the others bowed before their superiority, and the Undjoon entered the galactic stage as a confederation of robber-barons under the command of a fearesome pirate king."
-		name_list="ART1"
+		name_list="TOX2"
 		gender=not_set
-		trait="trait_survivor"
 		trait="trait_extremely_adaptive"
 		trait="trait_rapid_breeders"
 		trait="trait_quarrelsome"
@@ -7042,9 +7049,9 @@
 	system_name={
 		key="Bambaru"
 	}
-	initializer=""
-	graphical_culture="arthropoid_01"
-	city_graphical_culture="arthropoid_01"
+	initializer="toxic_knights_start"
+	graphical_culture="toxoid_01"
+	city_graphical_culture="toxoid_01"
 	empire_flag={
 		icon={
 			category="just-more-flags"
@@ -7064,13 +7071,13 @@
 	ruler={
 		gender=male
 		name={
-			first_name={
+			full_names={
 				key="Ul-Ba"
 			}
 		}
-		portrait="art10"
+		portrait="tox15"
 		texture=3
-		hair=0
+		attachment=0
 		clothes=3
 		ruler_title={
 			key="Dread Pirate"
@@ -7091,7 +7098,7 @@
 		"civic_barbaric_despoilers"
 		"civic_warrior_culture"
 	}
-	origin="origin_post_apocalyptic"
+	origin="origin_toxic_knights"
 }
 "Unified Zamkand State"={
 	key="Unified Zamkand State"
@@ -7153,13 +7160,13 @@
 	ruler={
 		gender=female
 		name={
-			first_name={
+			full_names={
 				key="Rhizome of Bronze"
 			}
 		}
 		portrait="pla6"
 		texture=2
-		hair=0
+		attachment=0
 		clothes=0
 		leader_class="ruler"
 	}
@@ -7237,13 +7244,13 @@
 	ruler={
 		gender=male
 		name={
-			first_name={
+			full_names={
 				key="Lesebo Tshonyane"
 			}
 		}
 		portrait="human_male_05"
 		texture=0
-		hair=1
+		attachment=1
 		clothes=4
 		ruler_title={
 			key="Sky Marshal"
@@ -7326,13 +7333,13 @@
 	ruler={
 		gender=female
 		name={
-			first_name={
+			full_names={
 				key="Benazir Buzdar"
 			}
 		}
 		portrait="human_female_03"
 		texture=0
-		hair=1
+		attachment=1
 		clothes=1
 		leader_class="ruler"
 	}
@@ -7428,13 +7435,13 @@
 	ruler={
 		gender=female
 		name={
-			first_name={
+			full_names={
 				key="Madavals Dawnstalk"
 			}
 		}
 		portrait="pla9"
 		texture=3
-		hair=0
+		attachment=0
 		clothes=3
 		leader_class="ruler"
 	}
@@ -7511,13 +7518,13 @@
 	ruler={
 		gender=female
 		name={
-			first_name={
+			full_names={
 				key="Tikate Katake"
 			}
 		}
 		portrait="avi9"
 		texture=2
-		hair=0
+		attachment=0
 		clothes=3
 		ruler_title={
 			key="Executive Strategist"
@@ -7580,8 +7587,8 @@
 		key="Urloche"
 	}
 	initializer=""
-	graphical_culture="mammalian_01"
-	city_graphical_culture="mammalian_01"
+	graphical_culture="nemesis_01"
+	city_graphical_culture="necroid_01"
 	empire_flag={
 		icon={
 			category="just-more-flags"
@@ -7601,13 +7608,13 @@
 	ruler={
 		gender=male
 		name={
-			first_name={
+			full_names={
 				key="Regolid had'Marn"
 			}
 		}
 		portrait="mam8"
 		texture=0
-		hair=0
+		attachment=0
 		clothes=4
 		leader_class="ruler"
 	}
@@ -7686,13 +7693,13 @@
 	ruler={
 		gender=female
 		name={
-			first_name={
+			full_names={
 				key="Breeze Among Branches"
 			}
 		}
 		portrait="pla7"
 		texture=1
-		hair=0
+		attachment=0
 		clothes=0
 		leader_class="ruler"
 	}
