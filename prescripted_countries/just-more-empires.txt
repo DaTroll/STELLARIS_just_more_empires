@@ -2461,7 +2461,7 @@
 		species_adjective={
 			key="Peridotit"
 		}
-		species_bio="Gallifrey was once a Planet with exceptional high gravity and ressource riches. An unknown empire tried to get access to its riches terraforming the unhabitable planet. This attempt failed terribly creating and created the everhungry lithoid lifeform devouring planet after planet ever since."
+		species_bio="Gallifrey was once a Planet with exceptional high gravity and ressource riches. An unknown empire tried to get access to its riches terraforming the unhabitable planet. This attempt failed terribly and created the everhungry lithoid lifeform devouring planet after planet ever since."
 		name_list="LITHOID4"
 		gender=not_set
 		trait="trait_lithoid"
