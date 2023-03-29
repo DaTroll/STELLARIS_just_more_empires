@@ -72,7 +72,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="desert6_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_xenophile"
 	ethic="ethic_pacifist"
 	ethic="ethic_spiritualist"
@@ -155,7 +155,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="outdoor14_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_gestalt_consciousness"
 	civics={
 		"civic_hive_devouring_swarm"
@@ -237,7 +237,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="spiritualist2_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_fanatic_spiritualist"
 	ethic="ethic_xenophobe"
 	civics={
@@ -329,7 +329,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="spiritualist6_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_xenophobe"
 	ethic="ethic_pacifist"
 	ethic="ethic_materialist"
@@ -412,7 +412,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="plantoid9_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_egalitarian"
 	ethic="ethic_fanatic_materialist"
 	civics={
@@ -495,7 +495,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="desert2_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_egalitarian"
 	ethic="ethic_fanatic_spiritualist"
 	civics={
@@ -577,7 +577,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="cityscape14_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_fanatic_egalitarian"
 	ethic="ethic_materialist"
 	civics={
@@ -665,7 +665,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="desert3_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_fanatic_authoritarian"
 	ethic="ethic_materialist"
 	civics={
@@ -778,7 +778,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="spiritualist4_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_egalitarian"
 	ethic="ethic_xenophile"
 	ethic="ethic_militarist"
@@ -869,7 +869,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="apocalyptic4_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_authoritarian"
 	ethic="ethic_fanatic_xenophile"
 	civics={
@@ -959,7 +959,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="ethic_dark_side_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_authoritarian"
 	ethic="ethic_fanatic_militarist"
 	civics={
@@ -1043,7 +1043,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="apocalyptic9_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_gestalt_consciousness"
 	civics={
 		"civic_machine_terminator"
@@ -1129,7 +1129,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="cityscape4_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_authoritarian"
 	ethic="ethic_xenophile"
 	ethic="ethic_militarist"
@@ -1219,7 +1219,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="command1_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_egalitarian"
 	ethic="ethic_fanatic_militarist"
 	civics={
@@ -1302,7 +1302,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="masseffect2_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_authoritarian"
 	ethic="ethic_fanatic_materialist"
 	civics={
@@ -1396,7 +1396,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="imperium1_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_fanatic_xenophobe"
 	ethic="ethic_spiritualist"
 	civics={
@@ -1484,7 +1484,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="frozen1_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_egalitarian"
 	ethic="ethic_xenophile"
 	ethic="ethic_materialist"
@@ -1569,7 +1569,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="control1_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_fanatic_egalitarian"
 	ethic="ethic_xenophile"
 	civics={
@@ -1652,7 +1652,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="frozen3_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_xenophobe"
 	ethic="ethic_militarist"
 	ethic="ethic_spiritualist"
@@ -1743,7 +1743,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="spiritualist5_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_fanatic_pacifist"
 	ethic="ethic_spiritualist"
 	civics={
@@ -1825,7 +1825,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="throne7_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_authoritarian"
 	ethic="ethic_xenophobe"
 	ethic="ethic_militarist"
@@ -1908,7 +1908,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="underwater2_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_fanatic_pacifist"
 	ethic="ethic_spiritualist"
 	civics={
@@ -1992,7 +1992,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="hive8_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_gestalt_consciousness"
 	civics={
 		"civic_hive_divided_attention"
@@ -2095,7 +2095,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="hive5_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_authoritarian"
 	ethic="ethic_fanatic_spiritualist"
 	civics={
@@ -2178,7 +2178,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="cityscape23_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_militarist"
 	ethic="ethic_fanatic_materialist"
 	civics={
@@ -2271,7 +2271,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="command8_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_fanatic_authoritarian"
 	ethic="ethic_pacifist"
 	civics={
@@ -2352,7 +2352,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="cave7_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_egalitarian"
 	ethic="ethic_xenophile"
 	ethic="ethic_pacifist"
@@ -2436,7 +2436,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="desert5_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_gestalt_consciousness"
 	civics={
 		"civic_machine_builder"
@@ -2521,7 +2521,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="apocalyptic7_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_gestalt_consciousness"
 	civics={
 		"civic_hive_natural_neural_network"
@@ -2601,7 +2601,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="mech1_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_authoritarian"
 	ethic="ethic_fanatic_materialist"
 	civics={
@@ -2689,7 +2689,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="apocalyptic12_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_authoritarian"
 	ethic="ethic_pacifist"
 	ethic="ethic_spiritualist"
@@ -2773,7 +2773,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="gaia3_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_xenophile"
 	ethic="ethic_pacifist"
 	ethic="ethic_spiritualist"
@@ -2864,7 +2864,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="outdoor18_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_egalitarian"
 	ethic="ethic_xenophile"
 	ethic="ethic_pacifist"
@@ -2960,7 +2960,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="throne9_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_authoritarian"
 	ethic="ethic_xenophobe"
 	ethic="ethic_spiritualist"
@@ -3044,7 +3044,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="outdoor15_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_egalitarian"
 	ethic="ethic_xenophobe"
 	ethic="ethic_militarist"
@@ -3129,7 +3129,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="industrial3_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_gestalt_consciousness"
 	civics={
 		"civic_machine_introspective"
@@ -3211,7 +3211,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="industrial16_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_fanatic_authoritarian"
 	ethic="ethic_militarist"
 	civics={
@@ -3293,7 +3293,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="outdoor7_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_fanatic_xenophobe"
 	ethic="ethic_militarist"
 	civics={
@@ -3374,7 +3374,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="cityscape1_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_fanatic_egalitarian"
 	ethic="ethic_materialist"
 	civics={
@@ -3456,7 +3456,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="hive2_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_fanatic_xenophobe"
 	ethic="ethic_militarist"
 	civics={
@@ -3544,7 +3544,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="militarist12_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_egalitarian"
 	ethic="ethic_fanatic_militarist"
 	civics={
@@ -3626,7 +3626,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="frozen4_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_egalitarian"
 	ethic="ethic_militarist"
 	ethic="ethic_materialist"
@@ -3711,7 +3711,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="corporate2_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_authoritarian"
 	ethic="ethic_pacifist"
 	ethic="ethic_materialist"
@@ -3795,7 +3795,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="militarist1_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_fanatic_xenophobe"
 	ethic="ethic_spiritualist"
 	civics={
@@ -3880,7 +3880,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="throne1_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_fanatic_xenophile"
 	ethic="ethic_spiritualist"
 	civics={
@@ -3983,7 +3983,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="personality_fanatic_befrienders_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_authoritarian"
 	ethic="ethic_xenophile"
 	ethic="ethic_pacifist"
@@ -4069,7 +4069,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="desert7_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_pacifist"
 	ethic="ethic_fanatic_materialist"
 	civics={
@@ -4170,7 +4170,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="mech6_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_gestalt_consciousness"
 	civics={
 		"civic_machine_factory_overclock"
@@ -4252,7 +4252,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="industrial1_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_fanatic_xenophile"
 	ethic="ethic_militarist"
 	civics={
@@ -4364,7 +4364,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="human5_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_authoritarian"
 	ethic="ethic_fanatic_materialist"
 	civics={
@@ -4446,7 +4446,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="robotic9_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_gestalt_consciousness"
 	civics={
 		"civic_machine_delegated_functions"
@@ -4546,7 +4546,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="robotic11_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_gestalt_consciousness"
 	civics={
 		"civic_machine_assimilator"
@@ -4638,7 +4638,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="spiritualist8_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_fanatic_xenophobe"
 	ethic="ethic_spiritualist"
 	civics={
@@ -4742,7 +4742,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="frozen6_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_egalitarian"
 	ethic="ethic_xenophile"
 	ethic="ethic_militarist"
@@ -4825,7 +4825,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="tech12_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_xenophile"
 	ethic="ethic_pacifist"
 	ethic="ethic_materialist"
@@ -4916,7 +4916,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="tech3_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_fanatic_authoritarian"
 	ethic="ethic_materialist"
 	civics={
@@ -5000,7 +5000,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="tech4_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_gestalt_consciousness"
 	civics={
 		"civic_machine_delegated_functions"
@@ -5095,7 +5095,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="cityscape20_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_authoritarian"
 	ethic="ethic_militarist"
 	ethic="ethic_materialist"
@@ -5179,7 +5179,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="underwater3_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_authoritarian"
 	ethic="ethic_xenophile"
 	ethic="ethic_spiritualist"
@@ -5263,7 +5263,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="cityscape18_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_egalitarian"
 	ethic="ethic_fanatic_materialist"
 	civics={
@@ -5344,7 +5344,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="desert8_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_fanatic_authoritarian"
 	ethic="ethic_spiritualist"
 	civics={
@@ -5432,7 +5432,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="cityscape9_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_fanatic_egalitarian"
 	ethic="ethic_pacifist"
 	civics={
@@ -5526,7 +5526,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="cityscape24_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_egalitarian"
 	ethic="ethic_pacifist"
 	ethic="ethic_spiritualist"
@@ -5611,7 +5611,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="ethic_light_side_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_pacifist"
 	ethic="ethic_fanatic_materialist"
 	civics={
@@ -5714,7 +5714,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="underwater1_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_xenophile"
 	ethic="ethic_fanatic_pacifist"
 	civics={
@@ -5797,7 +5797,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="throne3_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_xenophobe"
 	ethic="ethic_pacifist"
 	ethic="ethic_spiritualist"
@@ -5881,7 +5881,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="robotic2_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_fanatic_xenophobe"
 	ethic="ethic_spiritualist"
 	civics={
@@ -5987,7 +5987,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="cave5_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_xenophile"
 	ethic="ethic_pacifist"
 	ethic="ethic_spiritualist"
@@ -6071,7 +6071,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="frozen2_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_fanatic_authoritarian"
 	ethic="ethic_militarist"
 	civics={
@@ -6156,7 +6156,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="throne2_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_authoritarian"
 	ethic="ethic_fanatic_xenophobe"
 	civics={
@@ -6242,7 +6242,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="warp1_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_gestalt_consciousness"
 	civics={
 		"civic_hive_divided_attention"
@@ -6324,7 +6324,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="plantoid7_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_xenophobe"
 	ethic="ethic_fanatic_militarist"
 	civics={
@@ -6423,7 +6423,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="command6_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_authoritarian"
 	ethic="ethic_xenophile"
 	ethic="ethic_militarist"
@@ -6508,7 +6508,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="throne10_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_egalitarian"
 	ethic="ethic_pacifist"
 	ethic="ethic_spiritualist"
@@ -6610,7 +6610,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="spiritualist3_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_gestalt_consciousness"
 	civics={
 		"civic_machine_delegated_functions"
@@ -6692,7 +6692,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="hive1_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_xenophobe"
 	ethic="ethic_fanatic_pacifist"
 	civics={
@@ -6782,7 +6782,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="cityscape2_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_egalitarian"
 	ethic="ethic_xenophile"
 	ethic="ethic_militarist"
@@ -6894,7 +6894,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="plantoid10_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_authoritarian"
 	ethic="ethic_militarist"
 	ethic="ethic_spiritualist"
@@ -6999,7 +6999,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="control2_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_gestalt_consciousness"
 	civics={
 		"civic_machine_servitor"
@@ -7090,7 +7090,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="militarist3_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_authoritarian"
 	ethic="ethic_xenophobe"
 	ethic="ethic_militarist"
@@ -7173,7 +7173,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="outdoor21_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_fanatic_authoritarian"
 	ethic="ethic_xenophile"
 	civics={
@@ -7263,7 +7263,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="command4_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_egalitarian"
 	ethic="ethic_xenophobe"
 	ethic="ethic_militarist"
@@ -7346,7 +7346,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="human6_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_egalitarian"
 	ethic="ethic_xenophile"
 	ethic="ethic_pacifist"
@@ -7448,7 +7448,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="cave1_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_egalitarian"
 	ethic="ethic_militarist"
 	ethic="ethic_spiritualist"
@@ -7537,7 +7537,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="spiritualist7_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_egalitarian"
 	ethic="ethic_militarist"
 	ethic="ethic_materialist"
@@ -7621,7 +7621,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="stargate1_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_xenophobe"
 	ethic="ethic_militarist"
 	ethic="ethic_materialist"
@@ -7706,7 +7706,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="fungus4_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_gestalt_consciousness"
 	civics={
 		"civic_hive_natural_neural_network"
