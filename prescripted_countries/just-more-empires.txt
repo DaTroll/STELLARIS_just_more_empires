@@ -67,7 +67,8 @@
 		texture=0
 		attachment=0
 		clothes=0
-		leader_class="ruler"
+		trait="leader_trait_principled"
+		leader_class="governor"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -146,11 +147,12 @@
 				key="Relentless"
 			}
 		}
-		portrait="fun16"
+		portrait="fun16a"
 		texture=1
 		attachment=0
 		clothes=0
-		leader_class="ruler"
+		trait="leader_trait_fleet_organizer"
+		leader_class="admiral"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -232,14 +234,15 @@
 		texture=1
 		attachment=0
 		clothes=1
-		leader_class="ruler"
+		trait="leader_trait_spycraft"
+		leader_class="general"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="spiritualist2_room"
 	spawn_enabled=always
-	ethic="ethic_fanatic_spiritualist"
 	ethic="ethic_xenophobe"
+	ethic="ethic_fanatic_spiritualist"
 	civics={
 		"civic_corvee_system"
 		"civic_police_state"
@@ -324,7 +327,8 @@
 		ruler_title_female={
 			key="Shadowless"
 		}
-		leader_class="ruler"
+		trait="trait_ruler_charismatic"
+		leader_class="governor"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -407,7 +411,8 @@
 		texture=0
 		attachment=0
 		clothes=2
-		leader_class="ruler"
+		trait="leader_trait_spark_of_genius"
+		leader_class="scientist"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -490,7 +495,7 @@
 		texture=1
 		attachment=0
 		clothes=0
-		leader_class="ruler"
+		leader_class="governor"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -534,7 +539,7 @@
 		key="Cistrenthic"
 	}
 	authority="auth_democratic"
-	government="gov_direct_democracy"
+	government="gov_communal_parity"
 	planet_name={
 		key="Trenth Wen"
 	}
@@ -568,11 +573,12 @@
 				key="Tag Jach Dvoruss"
 			}
 		}
-		portrait="mam6"
+		portrait="mamfem06"
 		texture=1
 		attachment=0
 		clothes=2
-		leader_class="ruler"
+		trait="trait_ruler_eye_for_talent"
+		leader_class="governor"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -656,11 +662,14 @@
 		clothes=2
 		ruler_title={
 			key="Premier"
+			literal=yes
 		}
 		ruler_title_female={
 			key="Premier"
+			literal=yes
 		}
-		leader_class="ruler"
+		trait="trait_ruler_logistic_understanding"
+		leader_class="general"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -769,11 +778,14 @@
 		clothes=0
 		ruler_title={
 			key="High Adjudicator"
+			literal=yes
 		}
 		ruler_title_female={
 			key="High Adjudicator"
+			literal=yes
 		}
-		leader_class="ruler"
+		trait="trait_ruler_charismatic"
+		leader_class="governor"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -864,7 +876,8 @@
 		ruler_title_female={
 			key="Chairbeing"
 		}
-		leader_class="ruler"
+		trait="trait_ruler_charismatic"
+		leader_class="governor"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -946,15 +959,14 @@
 		}
 		portrait="humanoid_02_male_01"
 		texture=0
-		attachment=4
+		attachment=0
 		clothes=4
-		ruler_title={
-			key="Warlord"
-		}
 		ruler_title_female={
 			key="Warmatron"
+			literal=yes
 		}
-		leader_class="ruler"
+		trait="trait_ruler_warlike"
+		leader_class="general"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -1038,7 +1050,7 @@
 		texture=3
 		attachment=0
 		clothes=0
-		leader_class="ruler"
+		leader_class="governor"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -1124,7 +1136,7 @@
 		ruler_title_female={
 			key="Grand Marshal"
 		}
-		leader_class="ruler"
+		leader_class="governor"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -1214,7 +1226,8 @@
 		ruler_title_female={
 			key="Commandant"
 		}
-		leader_class="ruler"
+		trait="trait_ruler_eye_for_talent"
+		leader_class="admiral"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -1297,7 +1310,8 @@
 		texture=2
 		attachment=1
 		clothes=0
-		leader_class="ruler"
+		trait="leader_trait_spark_of_genius"
+		leader_class="scientist"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -1391,7 +1405,8 @@
 		heir_title_female={
 			key="Lady Solar"
 		}
-		leader_class="ruler"
+		trait="trait_ruler_industrialist"
+		leader_class="governor"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -1475,11 +1490,14 @@
 		clothes=1
 		ruler_title={
 			key="Chief Officer"
+			literal=yes
 		}
 		ruler_title_female={
 			key="Chief Officer"
+			literal=yes
 		}
-		leader_class="ruler"
+		trait="trait_ruler_eye_for_talent"
+		leader_class="scientist"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -1564,7 +1582,8 @@
 		texture=0
 		attachment=27
 		clothes=1
-		leader_class="ruler"
+		trait="leader_trait_fleet_organizer"
+		leader_class="admiral"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -1647,7 +1666,8 @@
 		texture=2
 		attachment=0
 		clothes=3
-		leader_class="ruler"
+		trait="trait_ruler_logistic_understanding"
+		leader_class="general"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -1734,11 +1754,14 @@
 		clothes=4
 		ruler_title={
 			key="High Jurist"
+			literal=yes
 		}
 		ruler_title_female={
 			key="High Jurist"
+			literal=yes
 		}
-		leader_class="ruler"
+		trait="leader_trait_principled"
+		leader_class="governor"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -1820,7 +1843,8 @@
 		texture=0
 		attachment=0
 		clothes=0
-		leader_class="ruler"
+		trait="trait_ruler_warlike"
+		leader_class="general"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -1903,7 +1927,8 @@
 		texture=6
 		attachment=0
 		clothes=0
-		leader_class="ruler"
+		trait="trait_ruler_industrialist"
+		leader_class="scientist"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -1987,7 +2012,8 @@
 		texture=1
 		attachment=0
 		clothes=0
-		leader_class="ruler"
+		trait="trait_ruler_feedback_loop"
+		leader_class="admiral"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -2090,7 +2116,8 @@
 		texture=4
 		attachment=0
 		clothes=0
-		leader_class="ruler"
+		trait="trait_ruler_industrialist"
+		leader_class="governor"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -2173,7 +2200,8 @@
 		texture=1
 		attachment=0
 		clothes=1
-		leader_class="ruler"
+		trait="trait_ruler_industrialist"
+		leader_class="scientist"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -2266,7 +2294,8 @@
 		heir_title_female={
 			key="Heiress Designate"
 		}
-		leader_class="ruler"
+		trait="leader_trait_spycraft"
+		leader_class="general"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -2347,7 +2376,8 @@
 		texture=4
 		attachment=0
 		clothes=2
-		leader_class="ruler"
+		trait="leader_trait_spycraft"
+		leader_class="general"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -2431,7 +2461,8 @@
 		texture=0
 		attachment=0
 		clothes=0
-		leader_class="ruler"
+		trait="trait_ruler_feedback_loop"
+		leader_class="scientist"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -2516,7 +2547,8 @@
 		texture=3
 		attachment=0
 		clothes=0
-		leader_class="ruler"
+		trait="trait_ruler_industrialist"
+		leader_class="scientist"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -2596,7 +2628,8 @@
 		texture=4
 		attachment=0
 		clothes=1
-		leader_class="ruler"
+		trait="leader_trait_spark_of_genius"
+		leader_class="scientist"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -2680,11 +2713,14 @@
 		clothes=1
 		ruler_title={
 			key="Emperor"
+			literal=yes
 		}
 		ruler_title_female={
 			key="Empress"
+			literal=yes
 		}
-		leader_class="ruler"
+		trait="leader_trait_fleet_organizer"
+		leader_class="admiral"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -2768,7 +2804,8 @@
 		texture=0
 		attachment=0
 		clothes=0
-		leader_class="ruler"
+		trait="trait_ruler_eye_for_talent"
+		leader_class="governor"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -2859,7 +2896,8 @@
 		ruler_title_female={
 			key="High Commissioner"
 		}
-		leader_class="ruler"
+		trait="trait_ruler_logistic_understanding"
+		leader_class="admiral"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -2945,17 +2983,22 @@
 		clothes=6
 		ruler_title={
 			key="Pontifex Maximus"
+			literal=yes
 		}
 		heir_title={
 			key="Lord Solar"
+			literal=yes
 		}
 		ruler_title_female={
 			key="Pontifex Maxima"
+			literal=yes
 		}
 		heir_title_female={
 			key="Lady Solar"
+			literal=yes
 		}
-		leader_class="ruler"
+		trait="trait_ruler_charismatic"
+		leader_class="admiral"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -3039,7 +3082,8 @@
 		texture=1
 		attachment=0
 		clothes=4
-		leader_class="ruler"
+		trait="leader_trait_spycraft"
+		leader_class="general"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -3124,7 +3168,8 @@
 		texture=2
 		attachment=0
 		clothes=0
-		leader_class="ruler"
+		trait="leader_trait_spark_of_genius"
+		leader_class="scientist"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -3206,7 +3251,8 @@
 		texture=0
 		attachment=0
 		clothes=3
-		leader_class="ruler"
+		trait="trait_ruler_warlike"
+		leader_class="admiral"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -3288,7 +3334,8 @@
 		texture=1
 		attachment=0
 		clothes=0
-		leader_class="ruler"
+		trait="trait_ruler_logistic_understanding"
+		leader_class="scientist"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -3369,7 +3416,7 @@
 		texture=2
 		attachment=0
 		clothes=2
-		leader_class="ruler"
+		leader_class="governor"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -3451,7 +3498,8 @@
 		texture=3
 		attachment=0
 		clothes=0
-		leader_class="ruler"
+		trait="leader_trait_fleet_organizer"
+		leader_class="admiral"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -3539,7 +3587,7 @@
 		ruler_title_female={
 			key="Commissar-General"
 		}
-		leader_class="ruler"
+		leader_class="governor"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -3621,7 +3669,8 @@
 		texture=3
 		attachment=0
 		clothes=4
-		leader_class="ruler"
+		trait="trait_ruler_eye_for_talent"
+		leader_class="admiral"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -3706,7 +3755,8 @@
 		texture=0
 		attachment=4
 		clothes=0
-		leader_class="ruler"
+		trait="leader_trait_spark_of_genius"
+		leader_class="scientist"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -3790,7 +3840,8 @@
 		texture=0
 		attachment=0
 		clothes=4
-		leader_class="ruler"
+		trait="trait_ruler_industrialist"
+		leader_class="governor"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -3875,7 +3926,8 @@
 		texture=0
 		attachment=0
 		clothes=1
-		leader_class="ruler"
+		trait="leader_trait_principled"
+		leader_class="governor"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -3978,7 +4030,7 @@
 		texture=1
 		attachment=0
 		clothes=0
-		leader_class="ruler"
+		leader_class="governor"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -4064,7 +4116,8 @@
 		ruler_title={
 			key="Chairbeing"
 		}
-		leader_class="ruler"
+		trait="trait_ruler_charismatic"
+		leader_class="scientist"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -4165,7 +4218,8 @@
 		texture=2
 		attachment=0
 		clothes=0
-		leader_class="ruler"
+		trait="trait_ruler_feedback_loop"
+		leader_class="governor"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -4247,7 +4301,8 @@
 		texture=1
 		attachment=0
 		clothes=0
-		leader_class="ruler"
+		trait="trait_ruler_eye_for_talent"
+		leader_class="general"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -4359,7 +4414,8 @@
 		ruler_title_female={
 			key="Director-General"
 		}
-		leader_class="ruler"
+		trait="trait_ruler_industrialist"
+		leader_class="scientist"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -4441,7 +4497,8 @@
 		texture=1
 		attachment=0
 		clothes=0
-		leader_class="ruler"
+		trait="trait_ruler_warlike"
+		leader_class="general"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -4541,7 +4598,8 @@
 		texture=3
 		attachment=0
 		clothes=0
-		leader_class="ruler"
+		trait="leader_trait_spark_of_genius"
+		leader_class="scientist"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -4633,7 +4691,8 @@
 		ruler_title_female={
 			key="First Chosen"
 		}
-		leader_class="ruler"
+		trait="leader_trait_spycraft"
+		leader_class="general"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -4737,7 +4796,8 @@
 		texture=3
 		attachment=0
 		clothes=0
-		leader_class="ruler"
+		trait="trait_ruler_charismatic"
+		leader_class="general"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -4820,7 +4880,8 @@
 		texture=6
 		attachment=0
 		clothes=2
-		leader_class="ruler"
+		trait="trait_ruler_logistic_understanding"
+		leader_class="scientist"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -4911,7 +4972,8 @@
 		ruler_title_female={
 			key="Chairwoman"
 		}
-		leader_class="ruler"
+		trait="trait_ruler_charismatic"
+		leader_class="admiral"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -4995,7 +5057,8 @@
 		texture=3
 		attachment=0
 		clothes=0
-		leader_class="ruler"
+		trait="trait_ruler_warlike"
+		leader_class="admiral"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -5090,7 +5153,8 @@
 		heir_title_female={
 			key="Archduchess Royal"
 		}
-		leader_class="ruler"
+		trait="trait_ruler_eye_for_talent"
+		leader_class="admiral"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -5174,7 +5238,8 @@
 		texture=1
 		attachment=0
 		clothes=0
-		leader_class="ruler"
+		trait="trait_ruler_logistic_understanding"
+		leader_class="governor"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -5258,7 +5323,8 @@
 		texture=0
 		attachment=4
 		clothes=6
-		leader_class="ruler"
+		trait="leader_trait_spark_of_genius"
+		leader_class="scientist"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -5339,7 +5405,8 @@
 		texture=2
 		attachment=0
 		clothes=0
-		leader_class="ruler"
+		trait="leader_trait_principled"
+		leader_class="governor"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -5427,7 +5494,8 @@
 		ruler_title_female={
 			key="Prime Motivator"
 		}
-		leader_class="ruler"
+		trait="trait_ruler_industrialist"
+		leader_class="governor"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -5521,7 +5589,8 @@
 		ruler_title_female={
 			key="President"
 		}
-		leader_class="ruler"
+		trait="leader_trait_principled"
+		leader_class="governor"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -5606,7 +5675,8 @@
 		texture=0
 		attachment=2
 		clothes=2
-		leader_class="ruler"
+		trait="trait_ruler_eye_for_talent"
+		leader_class="scientist"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -5709,7 +5779,8 @@
 		texture=0
 		attachment=0
 		clothes=0
-		leader_class="ruler"
+		trait="trait_ruler_logistic_understanding"
+		leader_class="governor"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -5792,7 +5863,8 @@
 		texture=0
 		attachment=0
 		clothes=0
-		leader_class="ruler"
+		trait="leader_trait_spycraft"
+		leader_class="general"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -5876,7 +5948,8 @@
 		texture=4
 		attachment=0
 		clothes=0
-		leader_class="ruler"
+		trait="trait_ruler_warlike"
+		leader_class="general"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -5982,7 +6055,8 @@
 		texture=3
 		attachment=0
 		clothes=1
-		leader_class="ruler"
+		trait="trait_ruler_charismatic"
+		leader_class="scientist"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -6066,7 +6140,8 @@
 		texture=0
 		attachment=0
 		clothes=0
-		leader_class="ruler"
+		trait="leader_trait_fleet_organizer"
+		leader_class="admiral"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -6151,7 +6226,8 @@
 		texture=3
 		attachment=0
 		clothes=1
-		leader_class="ruler"
+		trait="trait_ruler_warlike"
+		leader_class="admiral"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -6237,7 +6313,8 @@
 		ruler_title={
 			key="Mindflower"
 		}
-		leader_class="ruler"
+		trait="trait_ruler_feedback_loop"
+		leader_class="scientist"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -6319,7 +6396,8 @@
 		texture=3
 		attachment=0
 		clothes=4
-		leader_class="ruler"
+		trait="trait_ruler_warlike"
+		leader_class="general"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -6418,7 +6496,8 @@
 		heir_title_female={
 			key="Princess of Sol"
 		}
-		leader_class="ruler"
+		trait="leader_trait_fleet_organizer"
+		leader_class="admiral"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -6503,7 +6582,8 @@
 		texture=0
 		attachment=10
 		clothes=0
-		leader_class="ruler"
+		trait="leader_trait_principled"
+		leader_class="governor"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -6605,7 +6685,8 @@
 		texture=0
 		attachment=0
 		clothes=0
-		leader_class="ruler"
+		trait="trait_ruler_logistic_understanding"
+		leader_class="general"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -6687,7 +6768,8 @@
 		texture=0
 		attachment=0
 		clothes=0
-		leader_class="ruler"
+		trait="leader_trait_principled"
+		leader_class="governor"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -6777,7 +6859,8 @@
 		ruler_title_female={
 			key="Administrator"
 		}
-		leader_class="ruler"
+		trait="leader_trait_spycraft"
+		leader_class="general"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -6889,7 +6972,8 @@
 		ruler_title_female={
 			key="Thaumatergic Primarch"
 		}
-		leader_class="ruler"
+		trait="trait_ruler_eye_for_talent"
+		leader_class="general"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -6994,7 +7078,8 @@
 		ruler_title={
 			key="Version Control"
 		}
-		leader_class="ruler"
+		trait="trait_ruler_feedback_loop"
+		leader_class="governor"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -7085,7 +7170,8 @@
 		ruler_title_female={
 			key="Dread Pirate"
 		}
-		leader_class="ruler"
+		trait="leader_trait_fleet_organizer"
+		leader_class="admiral"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -7168,7 +7254,7 @@
 		texture=2
 		attachment=0
 		clothes=0
-		leader_class="ruler"
+		leader_class="governor"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -7258,7 +7344,8 @@
 		ruler_title_female={
 			key="Sky Marshal"
 		}
-		leader_class="ruler"
+		trait="trait_ruler_eye_for_talent"
+		leader_class="governor"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -7341,7 +7428,8 @@
 		texture=0
 		attachment=1
 		clothes=1
-		leader_class="ruler"
+		trait="trait_ruler_eye_for_talent"
+		leader_class="scientist"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -7443,7 +7531,8 @@
 		texture=3
 		attachment=0
 		clothes=3
-		leader_class="ruler"
+		trait="trait_ruler_logistic_understanding"
+		leader_class="general"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -7532,7 +7621,8 @@
 		ruler_title_female={
 			key="Executive Strategist"
 		}
-		leader_class="ruler"
+		trait="trait_ruler_logistic_understanding"
+		leader_class="scientist"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -7616,7 +7706,8 @@
 		texture=0
 		attachment=0
 		clothes=4
-		leader_class="ruler"
+		trait="trait_ruler_warlike"
+		leader_class="general"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -7701,7 +7792,8 @@
 		texture=1
 		attachment=0
 		clothes=0
-		leader_class="ruler"
+		trait="trait_ruler_eye_for_talent"
+		leader_class="scientist"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
