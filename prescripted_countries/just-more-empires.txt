@@ -67,12 +67,13 @@
 		texture=0
 		attachment=0
 		clothes=0
-		leader_class="ruler"
+		trait="leader_trait_principled"
+		leader_class="governor"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="desert6_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_xenophile"
 	ethic="ethic_pacifist"
 	ethic="ethic_spiritualist"
@@ -146,16 +147,17 @@
 				key="Relentless"
 			}
 		}
-		portrait="fun16"
+		portrait="fun16a"
 		texture=1
 		attachment=0
 		clothes=0
-		leader_class="ruler"
+		trait="leader_trait_fleet_organizer"
+		leader_class="admiral"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="outdoor14_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_gestalt_consciousness"
 	civics={
 		"civic_hive_devouring_swarm"
@@ -232,14 +234,15 @@
 		texture=1
 		attachment=0
 		clothes=1
-		leader_class="ruler"
+		trait="leader_trait_spycraft"
+		leader_class="general"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="spiritualist2_room"
-	spawn_enabled=yes
-	ethic="ethic_fanatic_spiritualist"
+	spawn_enabled=always
 	ethic="ethic_xenophobe"
+	ethic="ethic_fanatic_spiritualist"
 	civics={
 		"civic_corvee_system"
 		"civic_police_state"
@@ -324,12 +327,13 @@
 		ruler_title_female={
 			key="Shadowless"
 		}
-		leader_class="ruler"
+		trait="trait_ruler_charismatic"
+		leader_class="governor"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="spiritualist6_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_xenophobe"
 	ethic="ethic_pacifist"
 	ethic="ethic_materialist"
@@ -407,12 +411,13 @@
 		texture=0
 		attachment=0
 		clothes=2
-		leader_class="ruler"
+		trait="leader_trait_spark_of_genius"
+		leader_class="scientist"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="plantoid9_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_egalitarian"
 	ethic="ethic_fanatic_materialist"
 	civics={
@@ -490,12 +495,12 @@
 		texture=1
 		attachment=0
 		clothes=0
-		leader_class="ruler"
+		leader_class="governor"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="desert2_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_egalitarian"
 	ethic="ethic_fanatic_spiritualist"
 	civics={
@@ -534,7 +539,7 @@
 		key="Cistrenthic"
 	}
 	authority="auth_democratic"
-	government="gov_direct_democracy"
+	government="gov_communal_parity"
 	planet_name={
 		key="Trenth Wen"
 	}
@@ -568,16 +573,17 @@
 				key="Tag Jach Dvoruss"
 			}
 		}
-		portrait="mam6"
+		portrait="mamfem06"
 		texture=1
 		attachment=0
 		clothes=2
-		leader_class="ruler"
+		trait="trait_ruler_eye_for_talent"
+		leader_class="governor"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="cityscape14_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_fanatic_egalitarian"
 	ethic="ethic_materialist"
 	civics={
@@ -656,16 +662,19 @@
 		clothes=2
 		ruler_title={
 			key="Premier"
+			literal=yes
 		}
 		ruler_title_female={
 			key="Premier"
+			literal=yes
 		}
-		leader_class="ruler"
+		trait="trait_ruler_logistic_understanding"
+		leader_class="general"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="desert3_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_fanatic_authoritarian"
 	ethic="ethic_materialist"
 	civics={
@@ -769,16 +778,19 @@
 		clothes=0
 		ruler_title={
 			key="High Adjudicator"
+			literal=yes
 		}
 		ruler_title_female={
 			key="High Adjudicator"
+			literal=yes
 		}
-		leader_class="ruler"
+		trait="trait_ruler_charismatic"
+		leader_class="governor"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="spiritualist4_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_egalitarian"
 	ethic="ethic_xenophile"
 	ethic="ethic_militarist"
@@ -864,12 +876,13 @@
 		ruler_title_female={
 			key="Chairbeing"
 		}
-		leader_class="ruler"
+		trait="trait_ruler_charismatic"
+		leader_class="governor"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="apocalyptic4_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_authoritarian"
 	ethic="ethic_fanatic_xenophile"
 	civics={
@@ -946,20 +959,19 @@
 		}
 		portrait="humanoid_02_male_01"
 		texture=0
-		attachment=4
+		attachment=0
 		clothes=4
-		ruler_title={
-			key="Warlord"
-		}
 		ruler_title_female={
 			key="Warmatron"
+			literal=yes
 		}
-		leader_class="ruler"
+		trait="trait_ruler_warlike"
+		leader_class="general"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="ethic_dark_side_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_authoritarian"
 	ethic="ethic_fanatic_militarist"
 	civics={
@@ -1038,12 +1050,12 @@
 		texture=3
 		attachment=0
 		clothes=0
-		leader_class="ruler"
+		leader_class="governor"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="apocalyptic9_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_gestalt_consciousness"
 	civics={
 		"civic_machine_terminator"
@@ -1124,12 +1136,12 @@
 		ruler_title_female={
 			key="Grand Marshal"
 		}
-		leader_class="ruler"
+		leader_class="governor"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="cityscape4_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_authoritarian"
 	ethic="ethic_xenophile"
 	ethic="ethic_militarist"
@@ -1214,12 +1226,13 @@
 		ruler_title_female={
 			key="Commandant"
 		}
-		leader_class="ruler"
+		trait="trait_ruler_eye_for_talent"
+		leader_class="admiral"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="command1_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_egalitarian"
 	ethic="ethic_fanatic_militarist"
 	civics={
@@ -1297,12 +1310,13 @@
 		texture=2
 		attachment=1
 		clothes=0
-		leader_class="ruler"
+		trait="leader_trait_spark_of_genius"
+		leader_class="scientist"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="masseffect2_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_authoritarian"
 	ethic="ethic_fanatic_materialist"
 	civics={
@@ -1391,12 +1405,13 @@
 		heir_title_female={
 			key="Lady Solar"
 		}
-		leader_class="ruler"
+		trait="trait_ruler_industrialist"
+		leader_class="governor"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="imperium1_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_fanatic_xenophobe"
 	ethic="ethic_spiritualist"
 	civics={
@@ -1475,16 +1490,19 @@
 		clothes=1
 		ruler_title={
 			key="Chief Officer"
+			literal=yes
 		}
 		ruler_title_female={
 			key="Chief Officer"
+			literal=yes
 		}
-		leader_class="ruler"
+		trait="trait_ruler_eye_for_talent"
+		leader_class="scientist"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="frozen1_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_egalitarian"
 	ethic="ethic_xenophile"
 	ethic="ethic_materialist"
@@ -1564,12 +1582,13 @@
 		texture=0
 		attachment=27
 		clothes=1
-		leader_class="ruler"
+		trait="leader_trait_fleet_organizer"
+		leader_class="admiral"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="control1_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_fanatic_egalitarian"
 	ethic="ethic_xenophile"
 	civics={
@@ -1647,12 +1666,13 @@
 		texture=2
 		attachment=0
 		clothes=3
-		leader_class="ruler"
+		trait="trait_ruler_logistic_understanding"
+		leader_class="general"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="frozen3_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_xenophobe"
 	ethic="ethic_militarist"
 	ethic="ethic_spiritualist"
@@ -1734,16 +1754,19 @@
 		clothes=4
 		ruler_title={
 			key="High Jurist"
+			literal=yes
 		}
 		ruler_title_female={
 			key="High Jurist"
+			literal=yes
 		}
-		leader_class="ruler"
+		trait="leader_trait_principled"
+		leader_class="governor"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="spiritualist5_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_fanatic_pacifist"
 	ethic="ethic_spiritualist"
 	civics={
@@ -1820,12 +1843,13 @@
 		texture=0
 		attachment=0
 		clothes=0
-		leader_class="ruler"
+		trait="trait_ruler_warlike"
+		leader_class="general"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="throne7_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_authoritarian"
 	ethic="ethic_xenophobe"
 	ethic="ethic_militarist"
@@ -1903,12 +1927,13 @@
 		texture=6
 		attachment=0
 		clothes=0
-		leader_class="ruler"
+		trait="trait_ruler_industrialist"
+		leader_class="scientist"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="underwater2_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_fanatic_pacifist"
 	ethic="ethic_spiritualist"
 	civics={
@@ -1987,12 +2012,13 @@
 		texture=1
 		attachment=0
 		clothes=0
-		leader_class="ruler"
+		trait="trait_ruler_feedback_loop"
+		leader_class="admiral"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="hive8_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_gestalt_consciousness"
 	civics={
 		"civic_hive_divided_attention"
@@ -2090,12 +2116,13 @@
 		texture=4
 		attachment=0
 		clothes=0
-		leader_class="ruler"
+		trait="trait_ruler_industrialist"
+		leader_class="governor"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="hive5_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_authoritarian"
 	ethic="ethic_fanatic_spiritualist"
 	civics={
@@ -2173,12 +2200,13 @@
 		texture=1
 		attachment=0
 		clothes=1
-		leader_class="ruler"
+		trait="trait_ruler_industrialist"
+		leader_class="scientist"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="cityscape23_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_militarist"
 	ethic="ethic_fanatic_materialist"
 	civics={
@@ -2266,12 +2294,13 @@
 		heir_title_female={
 			key="Heiress Designate"
 		}
-		leader_class="ruler"
+		trait="leader_trait_spycraft"
+		leader_class="general"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="command8_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_fanatic_authoritarian"
 	ethic="ethic_pacifist"
 	civics={
@@ -2347,12 +2376,13 @@
 		texture=4
 		attachment=0
 		clothes=2
-		leader_class="ruler"
+		trait="leader_trait_spycraft"
+		leader_class="general"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="cave7_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_egalitarian"
 	ethic="ethic_xenophile"
 	ethic="ethic_pacifist"
@@ -2431,12 +2461,13 @@
 		texture=0
 		attachment=0
 		clothes=0
-		leader_class="ruler"
+		trait="trait_ruler_feedback_loop"
+		leader_class="scientist"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="desert5_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_gestalt_consciousness"
 	civics={
 		"civic_machine_builder"
@@ -2516,12 +2547,13 @@
 		texture=3
 		attachment=0
 		clothes=0
-		leader_class="ruler"
+		trait="trait_ruler_industrialist"
+		leader_class="scientist"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="apocalyptic7_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_gestalt_consciousness"
 	civics={
 		"civic_hive_natural_neural_network"
@@ -2596,12 +2628,13 @@
 		texture=4
 		attachment=0
 		clothes=1
-		leader_class="ruler"
+		trait="leader_trait_spark_of_genius"
+		leader_class="scientist"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="mech1_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_authoritarian"
 	ethic="ethic_fanatic_materialist"
 	civics={
@@ -2680,16 +2713,19 @@
 		clothes=1
 		ruler_title={
 			key="Emperor"
+			literal=yes
 		}
 		ruler_title_female={
 			key="Empress"
+			literal=yes
 		}
-		leader_class="ruler"
+		trait="leader_trait_fleet_organizer"
+		leader_class="admiral"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="apocalyptic12_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_authoritarian"
 	ethic="ethic_pacifist"
 	ethic="ethic_spiritualist"
@@ -2768,12 +2804,13 @@
 		texture=0
 		attachment=0
 		clothes=0
-		leader_class="ruler"
+		trait="trait_ruler_eye_for_talent"
+		leader_class="governor"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="gaia3_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_xenophile"
 	ethic="ethic_pacifist"
 	ethic="ethic_spiritualist"
@@ -2859,12 +2896,13 @@
 		ruler_title_female={
 			key="High Commissioner"
 		}
-		leader_class="ruler"
+		trait="trait_ruler_logistic_understanding"
+		leader_class="admiral"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="outdoor18_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_egalitarian"
 	ethic="ethic_xenophile"
 	ethic="ethic_pacifist"
@@ -2945,22 +2983,27 @@
 		clothes=6
 		ruler_title={
 			key="Pontifex Maximus"
+			literal=yes
 		}
 		heir_title={
 			key="Lord Solar"
+			literal=yes
 		}
 		ruler_title_female={
 			key="Pontifex Maxima"
+			literal=yes
 		}
 		heir_title_female={
 			key="Lady Solar"
+			literal=yes
 		}
-		leader_class="ruler"
+		trait="trait_ruler_charismatic"
+		leader_class="admiral"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="throne9_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_authoritarian"
 	ethic="ethic_xenophobe"
 	ethic="ethic_spiritualist"
@@ -3039,12 +3082,13 @@
 		texture=1
 		attachment=0
 		clothes=4
-		leader_class="ruler"
+		trait="leader_trait_spycraft"
+		leader_class="general"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="outdoor15_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_egalitarian"
 	ethic="ethic_xenophobe"
 	ethic="ethic_militarist"
@@ -3124,12 +3168,13 @@
 		texture=2
 		attachment=0
 		clothes=0
-		leader_class="ruler"
+		trait="leader_trait_spark_of_genius"
+		leader_class="scientist"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="industrial3_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_gestalt_consciousness"
 	civics={
 		"civic_machine_introspective"
@@ -3206,12 +3251,13 @@
 		texture=0
 		attachment=0
 		clothes=3
-		leader_class="ruler"
+		trait="trait_ruler_warlike"
+		leader_class="admiral"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="industrial16_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_fanatic_authoritarian"
 	ethic="ethic_militarist"
 	civics={
@@ -3288,12 +3334,13 @@
 		texture=1
 		attachment=0
 		clothes=0
-		leader_class="ruler"
+		trait="trait_ruler_logistic_understanding"
+		leader_class="scientist"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="outdoor7_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_fanatic_xenophobe"
 	ethic="ethic_militarist"
 	civics={
@@ -3369,12 +3416,12 @@
 		texture=2
 		attachment=0
 		clothes=2
-		leader_class="ruler"
+		leader_class="governor"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="cityscape1_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_fanatic_egalitarian"
 	ethic="ethic_materialist"
 	civics={
@@ -3451,12 +3498,13 @@
 		texture=3
 		attachment=0
 		clothes=0
-		leader_class="ruler"
+		trait="leader_trait_fleet_organizer"
+		leader_class="admiral"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="hive2_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_fanatic_xenophobe"
 	ethic="ethic_militarist"
 	civics={
@@ -3539,12 +3587,12 @@
 		ruler_title_female={
 			key="Commissar-General"
 		}
-		leader_class="ruler"
+		leader_class="governor"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="militarist12_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_egalitarian"
 	ethic="ethic_fanatic_militarist"
 	civics={
@@ -3621,12 +3669,13 @@
 		texture=3
 		attachment=0
 		clothes=4
-		leader_class="ruler"
+		trait="trait_ruler_eye_for_talent"
+		leader_class="admiral"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="frozen4_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_egalitarian"
 	ethic="ethic_militarist"
 	ethic="ethic_materialist"
@@ -3706,12 +3755,13 @@
 		texture=0
 		attachment=4
 		clothes=0
-		leader_class="ruler"
+		trait="leader_trait_spark_of_genius"
+		leader_class="scientist"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="corporate2_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_authoritarian"
 	ethic="ethic_pacifist"
 	ethic="ethic_materialist"
@@ -3790,12 +3840,13 @@
 		texture=0
 		attachment=0
 		clothes=4
-		leader_class="ruler"
+		trait="trait_ruler_industrialist"
+		leader_class="governor"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="militarist1_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_fanatic_xenophobe"
 	ethic="ethic_spiritualist"
 	civics={
@@ -3875,12 +3926,13 @@
 		texture=0
 		attachment=0
 		clothes=1
-		leader_class="ruler"
+		trait="leader_trait_principled"
+		leader_class="governor"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="throne1_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_fanatic_xenophile"
 	ethic="ethic_spiritualist"
 	civics={
@@ -3978,12 +4030,12 @@
 		texture=1
 		attachment=0
 		clothes=0
-		leader_class="ruler"
+		leader_class="governor"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="personality_fanatic_befrienders_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_authoritarian"
 	ethic="ethic_xenophile"
 	ethic="ethic_pacifist"
@@ -4064,12 +4116,13 @@
 		ruler_title={
 			key="Chairbeing"
 		}
-		leader_class="ruler"
+		trait="trait_ruler_charismatic"
+		leader_class="scientist"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="desert7_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_pacifist"
 	ethic="ethic_fanatic_materialist"
 	civics={
@@ -4165,12 +4218,13 @@
 		texture=2
 		attachment=0
 		clothes=0
-		leader_class="ruler"
+		trait="trait_ruler_feedback_loop"
+		leader_class="governor"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="mech6_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_gestalt_consciousness"
 	civics={
 		"civic_machine_factory_overclock"
@@ -4247,12 +4301,13 @@
 		texture=1
 		attachment=0
 		clothes=0
-		leader_class="ruler"
+		trait="trait_ruler_eye_for_talent"
+		leader_class="general"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="industrial1_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_fanatic_xenophile"
 	ethic="ethic_militarist"
 	civics={
@@ -4359,12 +4414,13 @@
 		ruler_title_female={
 			key="Director-General"
 		}
-		leader_class="ruler"
+		trait="trait_ruler_industrialist"
+		leader_class="scientist"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="human5_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_authoritarian"
 	ethic="ethic_fanatic_materialist"
 	civics={
@@ -4441,12 +4497,13 @@
 		texture=1
 		attachment=0
 		clothes=0
-		leader_class="ruler"
+		trait="trait_ruler_warlike"
+		leader_class="general"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="robotic9_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_gestalt_consciousness"
 	civics={
 		"civic_machine_delegated_functions"
@@ -4541,12 +4598,13 @@
 		texture=3
 		attachment=0
 		clothes=0
-		leader_class="ruler"
+		trait="leader_trait_spark_of_genius"
+		leader_class="scientist"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="robotic11_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_gestalt_consciousness"
 	civics={
 		"civic_machine_assimilator"
@@ -4633,12 +4691,13 @@
 		ruler_title_female={
 			key="First Chosen"
 		}
-		leader_class="ruler"
+		trait="leader_trait_spycraft"
+		leader_class="general"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="spiritualist8_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_fanatic_xenophobe"
 	ethic="ethic_spiritualist"
 	civics={
@@ -4737,12 +4796,13 @@
 		texture=3
 		attachment=0
 		clothes=0
-		leader_class="ruler"
+		trait="trait_ruler_charismatic"
+		leader_class="general"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="frozen6_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_egalitarian"
 	ethic="ethic_xenophile"
 	ethic="ethic_militarist"
@@ -4820,12 +4880,13 @@
 		texture=6
 		attachment=0
 		clothes=2
-		leader_class="ruler"
+		trait="trait_ruler_logistic_understanding"
+		leader_class="scientist"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="tech12_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_xenophile"
 	ethic="ethic_pacifist"
 	ethic="ethic_materialist"
@@ -4911,12 +4972,13 @@
 		ruler_title_female={
 			key="Chairwoman"
 		}
-		leader_class="ruler"
+		trait="trait_ruler_charismatic"
+		leader_class="admiral"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="tech3_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_fanatic_authoritarian"
 	ethic="ethic_materialist"
 	civics={
@@ -4995,12 +5057,13 @@
 		texture=3
 		attachment=0
 		clothes=0
-		leader_class="ruler"
+		trait="trait_ruler_warlike"
+		leader_class="admiral"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="tech4_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_gestalt_consciousness"
 	civics={
 		"civic_machine_delegated_functions"
@@ -5090,12 +5153,13 @@
 		heir_title_female={
 			key="Archduchess Royal"
 		}
-		leader_class="ruler"
+		trait="trait_ruler_eye_for_talent"
+		leader_class="admiral"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="cityscape20_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_authoritarian"
 	ethic="ethic_militarist"
 	ethic="ethic_materialist"
@@ -5174,12 +5238,13 @@
 		texture=1
 		attachment=0
 		clothes=0
-		leader_class="ruler"
+		trait="trait_ruler_logistic_understanding"
+		leader_class="governor"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="underwater3_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_authoritarian"
 	ethic="ethic_xenophile"
 	ethic="ethic_spiritualist"
@@ -5258,12 +5323,13 @@
 		texture=0
 		attachment=4
 		clothes=6
-		leader_class="ruler"
+		trait="leader_trait_spark_of_genius"
+		leader_class="scientist"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="cityscape18_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_egalitarian"
 	ethic="ethic_fanatic_materialist"
 	civics={
@@ -5339,12 +5405,13 @@
 		texture=2
 		attachment=0
 		clothes=0
-		leader_class="ruler"
+		trait="leader_trait_principled"
+		leader_class="governor"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="desert8_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_fanatic_authoritarian"
 	ethic="ethic_spiritualist"
 	civics={
@@ -5427,12 +5494,13 @@
 		ruler_title_female={
 			key="Prime Motivator"
 		}
-		leader_class="ruler"
+		trait="trait_ruler_industrialist"
+		leader_class="governor"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="cityscape9_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_fanatic_egalitarian"
 	ethic="ethic_pacifist"
 	civics={
@@ -5521,12 +5589,13 @@
 		ruler_title_female={
 			key="President"
 		}
-		leader_class="ruler"
+		trait="leader_trait_principled"
+		leader_class="governor"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="cityscape24_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_egalitarian"
 	ethic="ethic_pacifist"
 	ethic="ethic_spiritualist"
@@ -5606,12 +5675,13 @@
 		texture=0
 		attachment=2
 		clothes=2
-		leader_class="ruler"
+		trait="trait_ruler_eye_for_talent"
+		leader_class="scientist"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="ethic_light_side_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_pacifist"
 	ethic="ethic_fanatic_materialist"
 	civics={
@@ -5709,12 +5779,13 @@
 		texture=0
 		attachment=0
 		clothes=0
-		leader_class="ruler"
+		trait="trait_ruler_logistic_understanding"
+		leader_class="governor"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="underwater1_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_xenophile"
 	ethic="ethic_fanatic_pacifist"
 	civics={
@@ -5792,12 +5863,13 @@
 		texture=0
 		attachment=0
 		clothes=0
-		leader_class="ruler"
+		trait="leader_trait_spycraft"
+		leader_class="general"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="throne3_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_xenophobe"
 	ethic="ethic_pacifist"
 	ethic="ethic_spiritualist"
@@ -5876,12 +5948,13 @@
 		texture=4
 		attachment=0
 		clothes=0
-		leader_class="ruler"
+		trait="trait_ruler_warlike"
+		leader_class="general"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="robotic2_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_fanatic_xenophobe"
 	ethic="ethic_spiritualist"
 	civics={
@@ -5982,12 +6055,13 @@
 		texture=3
 		attachment=0
 		clothes=1
-		leader_class="ruler"
+		trait="trait_ruler_charismatic"
+		leader_class="scientist"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="cave5_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_xenophile"
 	ethic="ethic_pacifist"
 	ethic="ethic_spiritualist"
@@ -6066,12 +6140,13 @@
 		texture=0
 		attachment=0
 		clothes=0
-		leader_class="ruler"
+		trait="leader_trait_fleet_organizer"
+		leader_class="admiral"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="frozen2_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_fanatic_authoritarian"
 	ethic="ethic_militarist"
 	civics={
@@ -6151,12 +6226,13 @@
 		texture=3
 		attachment=0
 		clothes=1
-		leader_class="ruler"
+		trait="trait_ruler_warlike"
+		leader_class="admiral"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="throne2_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_authoritarian"
 	ethic="ethic_fanatic_xenophobe"
 	civics={
@@ -6237,12 +6313,13 @@
 		ruler_title={
 			key="Mindflower"
 		}
-		leader_class="ruler"
+		trait="trait_ruler_feedback_loop"
+		leader_class="scientist"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="warp1_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_gestalt_consciousness"
 	civics={
 		"civic_hive_divided_attention"
@@ -6319,12 +6396,13 @@
 		texture=3
 		attachment=0
 		clothes=4
-		leader_class="ruler"
+		trait="trait_ruler_warlike"
+		leader_class="general"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="plantoid7_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_xenophobe"
 	ethic="ethic_fanatic_militarist"
 	civics={
@@ -6418,12 +6496,13 @@
 		heir_title_female={
 			key="Princess of Sol"
 		}
-		leader_class="ruler"
+		trait="leader_trait_fleet_organizer"
+		leader_class="admiral"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="command6_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_authoritarian"
 	ethic="ethic_xenophile"
 	ethic="ethic_militarist"
@@ -6503,12 +6582,13 @@
 		texture=0
 		attachment=10
 		clothes=0
-		leader_class="ruler"
+		trait="leader_trait_principled"
+		leader_class="governor"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="throne10_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_egalitarian"
 	ethic="ethic_pacifist"
 	ethic="ethic_spiritualist"
@@ -6605,12 +6685,13 @@
 		texture=0
 		attachment=0
 		clothes=0
-		leader_class="ruler"
+		trait="trait_ruler_logistic_understanding"
+		leader_class="general"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="spiritualist3_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_gestalt_consciousness"
 	civics={
 		"civic_machine_delegated_functions"
@@ -6687,12 +6768,13 @@
 		texture=0
 		attachment=0
 		clothes=0
-		leader_class="ruler"
+		trait="leader_trait_principled"
+		leader_class="governor"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="hive1_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_xenophobe"
 	ethic="ethic_fanatic_pacifist"
 	civics={
@@ -6777,12 +6859,13 @@
 		ruler_title_female={
 			key="Administrator"
 		}
-		leader_class="ruler"
+		trait="leader_trait_spycraft"
+		leader_class="general"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="cityscape2_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_egalitarian"
 	ethic="ethic_xenophile"
 	ethic="ethic_militarist"
@@ -6889,12 +6972,13 @@
 		ruler_title_female={
 			key="Thaumatergic Primarch"
 		}
-		leader_class="ruler"
+		trait="trait_ruler_eye_for_talent"
+		leader_class="general"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="plantoid10_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_authoritarian"
 	ethic="ethic_militarist"
 	ethic="ethic_spiritualist"
@@ -6994,12 +7078,13 @@
 		ruler_title={
 			key="Version Control"
 		}
-		leader_class="ruler"
+		trait="trait_ruler_feedback_loop"
+		leader_class="governor"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="control2_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_gestalt_consciousness"
 	civics={
 		"civic_machine_servitor"
@@ -7085,12 +7170,13 @@
 		ruler_title_female={
 			key="Dread Pirate"
 		}
-		leader_class="ruler"
+		trait="leader_trait_fleet_organizer"
+		leader_class="admiral"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="militarist3_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_authoritarian"
 	ethic="ethic_xenophobe"
 	ethic="ethic_militarist"
@@ -7168,12 +7254,12 @@
 		texture=2
 		attachment=0
 		clothes=0
-		leader_class="ruler"
+		leader_class="governor"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="outdoor21_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_fanatic_authoritarian"
 	ethic="ethic_xenophile"
 	civics={
@@ -7258,12 +7344,13 @@
 		ruler_title_female={
 			key="Sky Marshal"
 		}
-		leader_class="ruler"
+		trait="trait_ruler_eye_for_talent"
+		leader_class="governor"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="command4_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_egalitarian"
 	ethic="ethic_xenophobe"
 	ethic="ethic_militarist"
@@ -7341,12 +7428,13 @@
 		texture=0
 		attachment=1
 		clothes=1
-		leader_class="ruler"
+		trait="trait_ruler_eye_for_talent"
+		leader_class="scientist"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="human6_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_egalitarian"
 	ethic="ethic_xenophile"
 	ethic="ethic_pacifist"
@@ -7443,12 +7531,13 @@
 		texture=3
 		attachment=0
 		clothes=3
-		leader_class="ruler"
+		trait="trait_ruler_logistic_understanding"
+		leader_class="general"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="cave1_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_egalitarian"
 	ethic="ethic_militarist"
 	ethic="ethic_spiritualist"
@@ -7532,12 +7621,13 @@
 		ruler_title_female={
 			key="Executive Strategist"
 		}
-		leader_class="ruler"
+		trait="trait_ruler_logistic_understanding"
+		leader_class="scientist"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="spiritualist7_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_egalitarian"
 	ethic="ethic_militarist"
 	ethic="ethic_materialist"
@@ -7616,12 +7706,13 @@
 		texture=0
 		attachment=0
 		clothes=4
-		leader_class="ruler"
+		trait="trait_ruler_warlike"
+		leader_class="general"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="stargate1_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_xenophobe"
 	ethic="ethic_militarist"
 	ethic="ethic_materialist"
@@ -7701,12 +7792,13 @@
 		texture=1
 		attachment=0
 		clothes=0
-		leader_class="ruler"
+		trait="trait_ruler_eye_for_talent"
+		leader_class="scientist"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="fungus4_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_gestalt_consciousness"
 	civics={
 		"civic_hive_natural_neural_network"
