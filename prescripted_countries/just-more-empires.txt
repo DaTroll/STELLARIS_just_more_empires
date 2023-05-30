@@ -147,7 +147,7 @@
 				key="Relentless"
 			}
 		}
-		portrait="fun16a"
+		portrait="fun16"
 		texture=1
 		attachment=0
 		clothes=0
@@ -573,7 +573,7 @@
 				key="Tag Jach Dvoruss"
 			}
 		}
-		portrait="mamfem06"
+		portrait="mam6"
 		texture=1
 		attachment=0
 		clothes=2
