@@ -1,4 +1,4 @@
-name="Just More Empires 3.8.x"
+name="Just More Empires 3.9.x"
 tags={
 	"Achievement"
 	"Galaxy Generation"
