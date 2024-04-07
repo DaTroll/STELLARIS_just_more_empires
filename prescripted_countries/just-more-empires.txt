@@ -1278,6 +1278,7 @@
 		texture=3
 		attachment=0
 		clothes=0
+		trait="trait_ruler_feedback_loop"
 		leader_class="official"
 	}
 	spawn_as_fallen=no
@@ -1384,6 +1385,7 @@
 		{
 			key="Grand Marshal"
 		}
+		trait="trait_ruler_charismatic"
 		leader_class="official"
 	}
 	spawn_as_fallen=no
@@ -4158,6 +4160,7 @@
 		texture=2
 		attachment=0
 		clothes=2
+		trait="trait_ruler_logistic_understanding"
 		leader_class="official"
 	}
 	spawn_as_fallen=no
@@ -4367,6 +4370,7 @@
 		{
 			key="Commissar-General"
 		}
+		trait="trait_ruler_logistic_understanding"
 		leader_class="official"
 	}
 	spawn_as_fallen=no
@@ -4904,6 +4908,7 @@
 		texture=1
 		attachment=0
 		clothes=0
+		trait="leader_trait_principled"
 		leader_class="official"
 	}
 	spawn_as_fallen=no
@@ -8824,6 +8829,7 @@
 		texture=2
 		attachment=0
 		clothes=0
+		trait="leader_trait_principled"
 		leader_class="official"
 	}
 	spawn_as_fallen=no
