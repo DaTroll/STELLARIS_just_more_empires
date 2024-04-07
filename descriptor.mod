@@ -1,4 +1,4 @@
-name="Just More Empires 3.10.x"
+name="Just More Empires 3.11.x"
 tags={
 	"Achievement"
 	"Galaxy Generation"
@@ -8,5 +8,5 @@ tags={
 	"Species"
 }
 picture="thumbnail.png"
-supported_version="3.10.*"
+supported_version="3.11.*"
 remote_file_id="2049806134"
