@@ -5079,8 +5079,8 @@
 		name_list="MAM1"
 		gender=not_set
 		trait="trait_natural_sociologists"
-		trait="trait_thrifty"
 		trait="trait_wasteful"
+		trait="trait_charismatic"
 	}
 	name=
 	{
@@ -5102,7 +5102,7 @@
 		key="Gyre"
 	}
 	initializer="shattered_ring_start"
-	graphical_culture="reptilian_01"
+	graphical_culture="synthetics_01"
 	city_graphical_culture="mammalian_01"
 	empire_flag=
 	{
